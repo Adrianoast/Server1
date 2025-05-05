@@ -295,3 +295,11 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:56:45] [Server thread/INFO]: adrianox27 issued server command: /shop
 [01:57:18] [Server thread/INFO]: adrianox27 issued server command: /shopgive Spawners page1.items.38 adrianox27 1
 [01:58:44] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/9130, uuid='dc11fa0a-9bed-44ed-900b-69306528efc7', l='ServerLevel[world]', x=315.50, y=-21.00, z=-323.50, cpos=[19, -21], tl=509, v=true] died: Skeletal Knight suffocated in a wall
+[02:06:34] [Server thread/INFO]: adrianox27 issued server command: /shop
+[02:06:50] [Server thread/INFO]: Shop >> adrianox27 bought 20 x Scaffolding(Miscellaneous.page1.items.28) for $26.60 with the buy screen.
+[02:09:28] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/10668, uuid='d3ebf1e7-044c-42ec-a701-d6923896028a', l='ServerLevel[world]', x=359.50, y=-37.00, z=-280.50, cpos=[22, -18], tl=391, v=true] died: Skeletal Knight suffocated in a wall
+[02:10:37] [Server thread/INFO]: adrianox27 issued server command: /shop
+[02:12:58] [User Authenticator #1/INFO]: UUID of player Coghi77 is 9f44e4ab-6bc0-37b2-8a24-e24ae41ca3ba
+[02:12:59] [Server thread/INFO]: Coghi77 joined the game
+[02:12:59] [Server thread/INFO]: Coghi77[/127.163.161.214:58855] logged in with entity id 11066 at ([world]233.5, 68.0, -264.5)
+[02:13:03] [Async Chat Thread - #0/INFO]: [Not Secure] <adrianox27> puto

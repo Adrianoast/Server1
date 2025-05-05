@@ -22,8 +22,8 @@ skills:
     level: 0
     xp: 0.0
   auraskills/fighting:
-    level: 3
-    xp: 906.7000000000018
+    level: 4
+    xp: 208.10000000000224
   auraskills/foraging:
     level: 4
     xp: 940.5599999999965
@@ -37,5 +37,7 @@ mana: 30.0
 action_bar:
   idle: true
 ability_data:
+  auraskills/first_strike:
+    counter: 0
   auraskills/xp_convert:
-    xp: 11.226285752944873
+    xp: 12.626285752944915

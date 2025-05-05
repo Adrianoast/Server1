@@ -1,28 +1,28 @@
-[00:53:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
-[00:53:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[00:53:01] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:53:04] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[00:53:04] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[03:08:02] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
+[03:08:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[03:08:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:08:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[03:08:03] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - EconomyShopGUI (6.12.2)
-[00:53:04] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[03:08:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - AuraSkills (2.3.3), CMI (9.7.13.0), Chunky (1.4.36), Essentials (2.21.0), MythicMobs (5.8.2-6a2683d7), Vault (1.7.3-b131)
-[00:53:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:53:11] [ServerMain/INFO]: Loaded 1290 recipes
-[00:53:11] [ServerMain/INFO]: Loaded 1399 advancements
-[00:53:12] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[00:53:12] [Server thread/INFO]: Loading properties
-[00:53:12] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[00:53:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:53:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:53:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:53:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[00:53:14] [Server thread/INFO]: Default game type: SURVIVAL
-[00:53:14] [Server thread/INFO]: Generating keypair
-[00:53:14] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:53:14] [Server thread/INFO]: Using epoll channel type
-[00:53:14] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:53:14] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:53:14] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/CMI-9.7.13.0.jar' in 'plugins/.paper-remapped'
+[03:08:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:08:12] [ServerMain/INFO]: Loaded 1290 recipes
+[03:08:13] [ServerMain/INFO]: Loaded 1399 advancements
+[03:08:13] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[03:08:13] [Server thread/INFO]: Loading properties
+[03:08:13] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[03:08:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:08:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:08:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:08:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[03:08:15] [Server thread/INFO]: Default game type: SURVIVAL
+[03:08:15] [Server thread/INFO]: Generating keypair
+[03:08:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:08:15] [Server thread/INFO]: Using epoll channel type
+[03:08:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:08:15] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:08:15] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/CMI-9.7.13.0.jar' in 'plugins/.paper-remapped'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [CMILib]. Please download and install these plugins to run 'CMI'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
@@ -32,361 +32,151 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:53:14] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[00:53:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[00:53:15] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[00:53:15] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.8.2-6a2683d7
-[00:53:15] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[00:53:16] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[00:53:16] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
-[00:53:16] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.3
-[00:53:16] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
-[00:53:16] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.12.2
-[00:53:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:53:16] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[00:53:16] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[00:53:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[00:53:17] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[00:53:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:53:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:53:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:53:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:53:17] [Server thread/INFO]: Preparing level "world"
-[00:53:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:53:20] [Server thread/INFO]: Time elapsed: 1770 ms
-[00:53:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:53:20] [Server thread/INFO]: Time elapsed: 677 ms
-[00:53:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:53:21] [Server thread/INFO]: Time elapsed: 237 ms
-[00:53:21] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.8.2-6a2683d7
-[00:53:21] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.1)...
-[00:53:21] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[00:53:25] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
-[00:53:25] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data
-[00:53:25] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data/worlds
-[00:53:30] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[00:53:30] [Server thread/INFO]: [MythicMobs] Loading Items...
-[00:53:31] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[00:53:31] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[00:53:31] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[00:53:31] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[00:53:31] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[00:53:32] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[00:53:32] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[00:53:32] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[00:53:32] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
-[00:53:32] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[00:53:32] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[00:53:32] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[00:53:32] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[00:53:32] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[00:53:32] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[00:53:32] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.8.2 ( build 6a2683d7 ) has been successfully loaded!
-[00:53:32] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
-[00:53:33] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[00:53:34] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:53:34] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:53:34] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[00:53:34] [Server thread/INFO]: [Essentials] Found 1 files to convert...
-[00:53:34] [Server thread/INFO]: [Essentials] Converted 0/1
-[00:53:34] [Server thread/INFO]: [Essentials] Ban format update complete.
-[00:53:34] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[00:53:34] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[00:53:34] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[00:53:34] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[00:53:34] [Server thread/INFO]: [Essentials] Done converting mail list.
-[00:53:34] [Server thread/INFO]: [Essentials] #===========================================================================#
-[00:53:34] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[00:53:34] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[00:53:34] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[00:53:34] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[00:53:34] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[00:53:34] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[00:53:34] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[00:53:34] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[00:53:34] [Server thread/INFO]: [Essentials] 
-[00:53:34] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[00:53:34] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[00:53:34] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[00:53:34] [Server thread/INFO]: [Essentials] #===========================================================================#
-[00:53:34] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
-[00:53:34] [Server thread/INFO]: [Essentials] #===========================================================================#
-[00:53:34] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[00:53:34] [Server thread/INFO]: [Essentials] 
-[00:53:34] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[00:53:34] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
-[00:53:34] [Server thread/INFO]: [Essentials] 
-[00:53:34] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[00:53:34] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[00:53:34] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[00:53:34] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[00:53:34] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[00:53:34] [Server thread/INFO]: [Essentials] #===========================================================================#
-[00:53:34] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[00:53:34] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[00:53:34] [Server thread/INFO]: [Essentials] Using locale en
-[00:53:34] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:53:34] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:53:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[00:53:34] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[00:53:34] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.3
-[00:53:35] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[00:53:36] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
-[00:53:36] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
-[00:53:36] [Server thread/INFO]: [AuraSkills] Loaded 158 config options in 57 ms
-[00:53:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[00:53:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[00:53:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[00:53:36] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[00:53:37] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:53:37] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.12.2
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.1...
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[00:53:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[00:53:38] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 699ms to complete
-[00:53:38] [Server thread/INFO]: [spark] Starting background profiler...
-[00:53:39] [Server thread/INFO]: Done preparing level "world" (22.089s)
-[00:53:39] [Server thread/INFO]: Running delayed init tasks
-[00:53:39] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[00:53:39] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[00:53:40] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
-[00:53:40] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[00:53:40] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[00:53:40] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[00:53:40] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:53:40] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
-[00:53:40] [Server thread/INFO]: Done (40.928s)! For help, type "help"
-[00:53:40] [Server thread/INFO]: Timings Reset
-[00:53:40] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
-[00:53:40] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
-[00:54:00] [User Authenticator #0/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
-[00:54:01] [Server thread/INFO]: adrianox27 joined the game
-[00:54:02] [Server thread/INFO]: adrianox27[/127.190.71.39:48095] logged in with entity id 27 at ([world]245.77303904060747, 83.0, -399.8788385324248)
-[00:57:55] [Server thread/INFO]: adrianox27 has made the advancement [Best Friends Forever]
-[00:58:01] [Server thread/INFO]: adrianox27 issued server command: /shop
-[00:58:06] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Saddle(Miscellaneous.page1.items.26) for $60.00 with the buy screen.
-[00:58:41] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/581, uuid='7e027164-31bb-4d72-ac63-b91d2be4272f', l='ServerLevel[world]', x=236.63, y=70.00, z=-306.93, cpos=[14, -20], tl=1179, v=true] died: Skeletal Knight was slain by adrianox27
-[01:03:33] [Server thread/INFO]: adrianox27 issued server command: /sethome
-[01:11:51] [Server thread/INFO]: adrianox27 issued server command: /home home
-[01:12:20] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:16:06] [Server thread/INFO]: adrianox27 has made the advancement [Hot Stuff]
-[01:19:08] [Server thread/INFO]: Villager Villager['Fletcher'/34, uuid='7e19ef68-164b-4997-9fd0-54e3c15fae6c', l='ServerLevel[world]', x=242.95, y=77.00, z=-382.76, cpos=[15, -24], tl=111437, v=true] died, message: 'Fletcher was slain by Zombie'
-[01:19:45] [Server thread/INFO]: Villager Villager['Fletcher'/31, uuid='a425caa1-f55d-4aaa-9bb8-bab721272079', l='ServerLevel[world]', x=243.76, y=76.92, z=-382.49, cpos=[15, -24], tl=110755, v=true] died, message: 'Fletcher was slain by Zombie'
-[01:19:49] [Server thread/INFO]: adrianox27 has made the advancement [Ice Bucket Challenge]
-[01:20:14] [Server thread/INFO]: Villager Villager['Fletcher'/33, uuid='5087285b-214d-4a51-99fc-17fdbbb34292', l='ServerLevel[world]', x=243.63, y=76.00, z=-380.31, cpos=[15, -24], tl=112762, v=true] died, message: 'Fletcher was slain by Zombie'
-[01:20:54] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:21:55] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/3764, uuid='677c5938-dbc8-40cd-94e6-0498cb32ab59', l='ServerLevel[world]', x=223.50, y=31.00, z=-363.50, cpos=[13, -23], tl=491, v=true] died: Skeletal Knight suffocated in a wall
-[01:22:04] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:22:57] [Server thread/INFO]: adrianox27 has made the advancement [Cover Me with Diamonds]
-[01:23:28] [Server thread/INFO]: adrianox27 issued server command: /chunky start
-[01:23:29] [ForkJoinPool.commonPool-worker-49/INFO]: [Chunky] Task running for world. Processed: 101 chunks (2.39%), ETA: 0:00:05, Rate: 789.1 cps, Current: 15, 8
-[01:23:30] [ForkJoinPool.commonPool-worker-32/INFO]: [Chunky] Task running for world. Processed: 2097 chunks (49.63%), ETA: 0:00:01, Rate: 1780.1 cps, Current: -29, -26
-[01:23:31] [ForkJoinPool.commonPool-worker-49/INFO]: [Chunky] Task running for world. Processed: 3284 chunks (77.73%), ETA: 0:00:00, Rate: 1475.3 cps, Current: -26, 15
-[01:23:32] [ForkJoinPool.commonPool-worker-49/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100.00%), Total time: 0:00:03
-[01:23:57] [Server thread/INFO]: adrianox27 issued server command: /chunky reload
-[01:24:14] [Server thread/INFO]: adrianox27 issued server command: /chunky radius 500 500 500
-[01:24:22] [Server thread/INFO]: adrianox27 issued server command: /chunky start
-[01:24:22] [Chunky-world Thread/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100.00%), Total time: 0:00:00
-[01:24:37] [Server thread/INFO]: adrianox27 has made the advancement [Ol' Betsy]
-[01:24:37] [Server thread/INFO]: adrianox27 has made the advancement [Take Aim]
-[01:24:44] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/4205, uuid='fb63add6-bb30-4061-bd04-1d07b01e0224', l='ServerLevel[world]', x=123.50, y=-3.00, z=-247.50, cpos=[7, -16], tl=397, v=true] died: Skeletal Knight suffocated in a wall
-[01:25:13] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/4229, uuid='2f883514-1b42-4f03-bc87-4fab1a2c26fa', l='ServerLevel[world]', x=165.36, y=63.00, z=-168.39, cpos=[10, -11], tl=928, v=true] died: Skeletal Knight was slain by adrianox27
-[01:29:17] [Server thread/INFO]: adrianox27 has made the advancement [Who's the Pillager Now?]
-[01:31:22] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5184, uuid='260ee6d2-179b-4db9-b1d8-a02d78bd1ae9', l='ServerLevel[world]', x=220.48, y=70.00, z=-212.62, cpos=[13, -14], tl=1763, v=true] died: Skeletal Knight was slain by adrianox27
-[01:32:53] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5555, uuid='c46c36e5-883d-4474-ac18-c9574121115c', l='ServerLevel[world]', x=168.98, y=63.00, z=-168.38, cpos=[10, -11], tl=1214, v=true] died: Skeletal Knight was slain by adrianox27
-[01:33:50] [Server thread/INFO]: adrianox27 has made the advancement [Voluntary Exile]
-[01:34:00] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:35:42] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
-[01:35:57] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
-[01:36:00] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:36:15] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:36:34] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:36:37] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
-[01:36:41] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
-[01:36:51] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
-[01:37:22] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:37:35] [Server thread/INFO]: Shop >> adrianox27 sold 2 x Ominous Bottle(Miscellaneous.page2.items.66) for $7,750.00 with the quick sell screen.
-[01:38:48] [Server thread/INFO]: adrianox27 issued server command: /home home
-[01:39:28] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:39:37] [Server thread/INFO]: Shop >> adrianox27 bought 6 x Shulker Shell(Miscellaneous.page1.items.29) for $42.00 with the buy screen.
-[01:39:46] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:39:49] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/6616, uuid='a8d6a354-364c-4d17-bbbd-2fef60a7f72f', l='ServerLevel[world]', x=248.35, y=36.00, z=-371.65, cpos=[15, -24], tl=392, v=true] died: Skeletal Knight suffocated in a wall
-[01:40:04] [Server thread/INFO]: Shop >> adrianox27 bought 16 x Bookshelf(Blocks.page1.items.35) for $1,905.92 with the buy screen.
-[01:44:31] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/7415, uuid='0119376b-69d1-4c1d-9ba3-3937f240fcde', l='ServerLevel[world]', x=135.50, y=-17.00, z=-181.50, cpos=[8, -12], tl=399, v=true] died: Skeletal Knight suffocated in a wall
-[01:44:48] [Server thread/INFO]: adrianox27 issued server command: /sethome presagio
-[01:44:53] [Server thread/INFO]: adrianox27 issued server command: /home home
-[01:44:59] [Server thread/INFO]: adrianox27 issued server command: /homes
-[01:45:05] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:45:11] [Server thread/INFO]: Shop >> adrianox27 bought 17 x Cooked Beef(Food.page1.items.11) for $107.10 with the buy screen.
-[01:45:27] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:45:46] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.14) for $705.60 with the buy screen.
-[01:45:56] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.23) for $160.00 with the buy screen.
-[01:46:21] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.9) for $972.41 with the buy screen.
-[01:46:42] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:46:49] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.40) for $441.00 with the buy screen.
-[01:47:03] [Server thread/INFO]: adrianox27 issued server command: /home presagio
-[01:47:18] [Server thread/INFO]: adrianox27 issued server command: /home home
-[01:48:04] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/8058, uuid='b59cfd55-540d-4176-830a-9a478da30ad4', l='ServerLevel[world]', x=236.50, y=-9.00, z=-390.50, cpos=[14, -25], tl=392, v=true] died: Skeletal Knight suffocated in a wall
-[01:48:54] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Player adrianox27 tried to mine a spawner with a not allowed spawner-break-tool: ItemStack{DIAMOND_PICKAXE x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={minecraft:efficiency=5, minecraft:fortune=3, minecraft:mending=1, minecraft:unbreaking=3}, repair-cost=15, Damage=346}}
-[01:52:48] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
-[01:53:20] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
-[01:53:32] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
-[01:53:33] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Player adrianox27 tried to mine a spawner with a not allowed spawner-break-tool: ItemStack{ZOMBIE_SPAWN_EGG x 1}
-[01:54:18] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:54:35] [Server thread/INFO]: adrianox27 issued server command: /pay adrianox27 120000
-[01:54:43] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
-[01:54:55] [Server thread/INFO]: adrianox27 issued server command: /pay adrianox27 120000
-[01:55:01] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
-[01:55:16] [Server thread/INFO]: adrianox27 issued server command: /balance adrianox27
-[01:55:26] [Server thread/INFO]: adrianox27 issued server command: /balance adrianox27 123445
-[01:55:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
-/pay adrianox27 120000<--[HERE]
-[01:56:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
-/pay adrianox27 120000,00<--[HERE]
-[01:56:29] [Server thread/INFO]: adrianox27 issued server command: /shopgive
-[01:56:45] [Server thread/INFO]: adrianox27 issued server command: /shop
-[01:57:18] [Server thread/INFO]: adrianox27 issued server command: /shopgive Spawners page1.items.38 adrianox27 1
-[01:58:44] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/9130, uuid='dc11fa0a-9bed-44ed-900b-69306528efc7', l='ServerLevel[world]', x=315.50, y=-21.00, z=-323.50, cpos=[19, -21], tl=509, v=true] died: Skeletal Knight suffocated in a wall
-[02:06:34] [Server thread/INFO]: adrianox27 issued server command: /shop
-[02:06:50] [Server thread/INFO]: Shop >> adrianox27 bought 20 x Scaffolding(Miscellaneous.page1.items.28) for $26.60 with the buy screen.
-[02:09:28] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/10668, uuid='d3ebf1e7-044c-42ec-a701-d6923896028a', l='ServerLevel[world]', x=359.50, y=-37.00, z=-280.50, cpos=[22, -18], tl=391, v=true] died: Skeletal Knight suffocated in a wall
-[02:10:37] [Server thread/INFO]: adrianox27 issued server command: /shop
-[02:12:58] [User Authenticator #1/INFO]: UUID of player Coghi77 is 9f44e4ab-6bc0-37b2-8a24-e24ae41ca3ba
-[02:12:59] [Server thread/INFO]: Coghi77 joined the game
-[02:12:59] [Server thread/INFO]: Coghi77[/127.163.161.214:58855] logged in with entity id 11066 at ([world]233.5, 68.0, -264.5)
-[02:13:03] [Async Chat Thread - #0/INFO]: [Not Secure] <adrianox27> puto
-[02:15:19] [Server thread/INFO]: adrianox27 issued server command: /shop
-[02:15:34] [Server thread/INFO]: Shop >> adrianox27 bought 16 x Oak Log(Blocks.page5.items.230) for $48.00 with the buy screen.
-[02:16:08] [Server thread/INFO]: Coghi77 issued server command: /shop
-[02:17:30] [Server thread/INFO]: adrianox27 issued server command: /tpa Coghi77
-[02:17:41] [Server thread/INFO]: adrianox27 issued server command: /op Coghi77
-[02:17:41] [Server thread/INFO]: [adrianox27: Made Coghi77 a server operator]
-[02:18:04] [Server thread/INFO]: Coghi77 issued server command: /gamemode creative
-[02:18:06] [Server thread/INFO]: adrianox27 issued server command: /essentials
-[02:18:06] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/11913, uuid='b09afc5e-34aa-4d7a-8dec-9630f743c47b', l='ServerLevel[world]', x=262.50, y=62.00, z=-288.50, cpos=[16, -19], tl=401, v=true] died: Skeletal Knight suffocated in a wall
-[02:18:22] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival Coghi77
-[02:18:34] [Server thread/INFO]: adrianox27 issued server command: /tp adrianox27 Coghi77
-[02:18:38] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12042, uuid='0fbec4e8-0c54-4d46-bbcc-7a81d7c1c6d1', l='ServerLevel[world]', x=231.55, y=86.00, z=-419.60, cpos=[14, -27], tl=57, v=true] died: Skeletal Minion was slain by adrianox27
-[02:18:41] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12045, uuid='2f1086f0-abb4-4cd7-ad81-d6ea0c408a49', l='ServerLevel[world]', x=234.94, y=82.00, z=-420.00, cpos=[14, -27], tl=89, v=true] died: Skeletal Minion was slain by adrianox27
-[02:18:42] [Server thread/INFO]: Coghi77 has made the advancement [Monster Hunter]
-[02:18:45] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12049, uuid='e71a1484-6099-4706-9bd4-f31a38b2e22b', l='ServerLevel[world]', x=238.60, y=78.00, z=-418.23, cpos=[14, -27], tl=161, v=true] died: Skeletal Minion burned to death
-[02:18:50] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12050, uuid='91f12001-d2ea-498c-b053-d98dccff9fc2', l='ServerLevel[world]', x=238.30, y=78.00, z=-418.05, cpos=[14, -27], tl=247, v=true] died: Skeletal Minion burned to death
-[02:18:58] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12044, uuid='4e983973-f855-4202-b15d-b4c6f167e726', l='ServerLevel[world]', x=232.41, y=76.94, z=-419.97, cpos=[14, -27], tl=432, v=true] died: Skeletal Minion burned to death
-[02:19:25] [Server thread/INFO]: adrianox27 has reached the goal [Postmortal]
-[02:19:45] [Server thread/INFO]: adrianox27 issued server command: /shop
-[02:19:49] [Server thread/INFO]: Coghi77 was shot by Skeletal Minion
-[02:19:50] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12202, uuid='5ab533de-bed6-4bff-8e27-0bb41ee66f03', l='ServerLevel[world]', x=209.30, y=87.00, z=-410.70, cpos=[13, -26], tl=85, v=true] died: Skeletal Minion was shot by Skeletal Minion
-[02:19:51] [Server thread/INFO]: Shop >> adrianox27 bought 3 x Totem Of Undying(Miscellaneous.page1.items.36) for $300.00 with the buy screen.
-[02:19:55] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12205, uuid='8ca59479-a288-4bcf-8bd5-35434729a86c', l='ServerLevel[world]', x=219.87, y=86.00, z=-410.17, cpos=[13, -26], tl=167, v=true] died: Skeletal Minion burned to death
-[02:19:55] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12204, uuid='ae96e6e0-70af-41c3-9736-c646c0a5aeba', l='ServerLevel[world]', x=214.80, y=84.00, z=-404.61, cpos=[13, -26], tl=171, v=true] died: Skeletal Minion burned to death
-[02:19:55] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12212, uuid='27e7a7ea-a8a3-4edc-896c-f9007340ca18', l='ServerLevel[world]', x=209.54, y=87.00, z=-407.79, cpos=[13, -26], tl=152, v=true] died: Skeletal Minion burned to death
-[02:19:55] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12201, uuid='d1b1a247-bbb3-4876-b171-18b98bbf7f0e', l='ServerLevel[world]', x=213.81, y=87.00, z=-409.10, cpos=[13, -26], tl=193, v=true] died: Skeletal Minion burned to death
-[02:19:58] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12213, uuid='de9bb5bd-da09-447b-a5ac-36fc6bc45dcd', l='ServerLevel[world]', x=218.36, y=86.00, z=-404.92, cpos=[13, -26], tl=204, v=true] died: Skeletal Minion burned to death
-[02:20:15] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12347, uuid='7cc7ab08-01cc-483c-b99e-b7527ad22c29', l='ServerLevel[world]', x=195.09, y=85.00, z=-408.63, cpos=[12, -26], tl=153, v=true] died: Skeletal Minion burned to death
-[02:20:16] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12348, uuid='75e0952e-9c26-444c-aa5a-b21dd59adf26', l='ServerLevel[world]', x=203.30, y=86.00, z=-406.18, cpos=[12, -26], tl=171, v=true] died: Skeletal Minion burned to death
-[02:20:18] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12356, uuid='2e50fe04-55f5-41f9-b1b8-37c81f3911a3', l='ServerLevel[world]', x=201.57, y=87.42, z=-414.24, cpos=[12, -26], tl=178, v=true] died: Skeletal Minion burned to death
-[02:20:19] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12352, uuid='705ef392-2192-405f-96de-f687421ba6de', l='ServerLevel[world]', x=200.46, y=88.00, z=-410.83, cpos=[12, -26], tl=210, v=true] died: Skeletal Minion burned to death
-[02:20:20] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12355, uuid='9e6feed1-3df1-4169-8ada-1d7153a6efc5', l='ServerLevel[world]', x=200.77, y=87.00, z=-413.44, cpos=[12, -26], tl=214, v=true] died: Skeletal Minion burned to death
-[02:20:21] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12351, uuid='043b6bea-e4a1-4331-bc5b-d499589a484b', l='ServerLevel[world]', x=192.69, y=83.00, z=-412.33, cpos=[12, -26], tl=254, v=true] died: Skeletal Minion burned to death
-[02:20:33] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12428, uuid='4d89aad7-03fd-4d45-83d1-49d39f108cc7', l='ServerLevel[world]', x=181.38, y=80.00, z=-398.03, cpos=[11, -25], tl=170, v=true] died: Skeletal Minion burned to death
-[02:20:33] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12433, uuid='fa66c5f7-98ad-4141-ab10-990fe86965b0', l='ServerLevel[world]', x=183.34, y=80.00, z=-394.51, cpos=[11, -25], tl=162, v=true] died: Skeletal Minion burned to death
-[02:20:33] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12429, uuid='10b46f74-10d8-4601-8890-142c05337d68', l='ServerLevel[world]', x=180.48, y=80.00, z=-396.84, cpos=[11, -25], tl=183, v=true] died: Skeletal Minion burned to death
-[02:20:34] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12438, uuid='43fa481c-2c8a-4c29-9b5d-d9df175e35ef', l='ServerLevel[world]', x=191.27, y=81.00, z=-402.26, cpos=[11, -26], tl=165, v=true] died: Skeletal Minion burned to death
-[02:20:34] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12439, uuid='50710489-1d9d-41e4-a27d-8798ab00c7f8', l='ServerLevel[world]', x=178.89, y=80.00, z=-396.71, cpos=[11, -25], tl=165, v=true] died: Skeletal Minion burned to death
-[02:20:36] [Server thread/INFO]: Named entity Skeleton['Skeletal Minion'/12432, uuid='732842f1-7d38-4fc3-b195-78945e63bd21', l='ServerLevel[world]', x=181.97, y=80.00, z=-397.55, cpos=[11, -25], tl=216, v=true] died: Skeletal Minion burned to death
-[02:20:40] [Server thread/INFO]: Named entity WitherSkeleton['Skeleton King'/11739, uuid='6d09dede-8e22-4797-a076-2fe878183003', l='ServerLevel[world]', x=187.56, y=75.92, z=-372.44, cpos=[11, -24], tl=4710, v=true] died: Skeleton King was slain by adrianox27
-[02:21:52] [Server thread/INFO]: adrianox27 issued server command: /back
-[02:22:28] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/12689, uuid='14a0a914-5b6c-46b7-b39c-799b8ae3a1b5', l='ServerLevel[world]', x=360.50, y=-4.00, z=-247.50, cpos=[22, -16], tl=494, v=true] died: Skeletal Knight suffocated in a wall
-[02:24:04] [Server thread/INFO]: adrianox27 issued server command: /shop
-[02:24:08] [Server thread/INFO]: Shop >> adrianox27 bought 33 x Scaffolding(Miscellaneous.page1.items.28) for $43.89 with the buy screen.
-[02:25:07] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/13604, uuid='7f0948c4-8b73-4213-84cb-04bdf53a7287', l='ServerLevel[world]', x=350.50, y=-32.00, z=-616.50, cpos=[21, -39], tl=392, v=true] died: Skeletal Knight suffocated in a wall
-[02:25:38] [Server thread/INFO]: adrianox27 issued server command: /sethome spawner
-[02:25:41] [Server thread/INFO]: adrianox27 issued server command: /homes
-[02:25:43] [Server thread/INFO]: adrianox27 issued server command: /home home
-[02:26:00] [Server thread/INFO]: adrianox27 issued server command: /home spawner
-[02:26:43] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/14390, uuid='992c93ea-51b7-45fe-aeb7-c3837b641522', l='ServerLevel[world]', x=385.50, y=-8.00, z=-345.50, cpos=[24, -22], tl=396, v=true] died: Skeletal Knight suffocated in a wall
-[02:27:56] [Server thread/INFO]: Coghi77 burned to death
-[02:28:26] [Server thread/INFO]: adrianox27 issued server command: /home spawner
-[02:29:02] [Server thread/INFO]: adrianox27 issued server command: /back
-[02:29:53] [Server thread/INFO]: Coghi77 has made the advancement [Sweet Dreams]
-[02:30:02] [Server thread/INFO]: adrianox27 issued server command: /home spawner
-[02:30:39] [Server thread/INFO]: Coghi77 has made the advancement [Getting an Upgrade]
-[02:30:48] [Server thread/INFO]: Coghi77 has made the advancement [Suit Up]
-[02:31:47] [Server thread/INFO]: adrianox27 issued server command: /back
-[02:31:56] [Server thread/INFO]: adrianox27 issued server command: /home home
-[02:31:58] [Server thread/INFO]: adrianox27 issued server command: /shop
-[02:32:14] [Server thread/INFO]: Shop >> adrianox27 bought 17 x Ender Pearl(Mobs.page1.items.6) for $119.00 with the buy screen.
-[02:33:04] [Server thread/INFO]: adrianox27 issued server command: /execute in minecraft:overworld run tp adrianox27 505.5 112 -233.5
-[02:33:29] [Async Chat Thread - #1/INFO]: [Not Secure] <adrianox27> me equivoque
-[02:33:31] [Async Chat Thread - #1/INFO]: [Not Secure] <adrianox27> suave
-[02:33:36] [Server thread/INFO]: adrianox27 issued server command: /seed
-[02:33:42] [Async Chat Thread - #1/INFO]: [Not Secure] <Coghi77> JAJAJAJ
-[02:34:50] [Server thread/INFO]: adrianox27 issued server command: /execute in minecraft:overworld run tp adrianox27 -0.5 64 240.5
-[02:35:33] [Server thread/INFO]: adrianox27 issued server command: /execute in minecraft:overworld run tp adrianox27 -55.5 120 -279.5
-[02:35:43] [Server thread/INFO]: adrianox27 issued server command: /home home
-[02:35:49] [Async Chat Thread - #3/INFO]: [Not Secure] <adrianox27> no sabo donde hay
-[02:35:52] [Server thread/INFO]: Coghi77 has made the advancement [Stone Age]
-[02:36:06] [Async Chat Thread - #3/INFO]: [Not Secure] <Coghi77> jaaa
-[02:36:09] [Async Chat Thread - #3/INFO]: [Not Secure] <Coghi77> bno
-[02:37:55] [Server thread/INFO]: adrianox27 issued server command: /home spawner
-[02:38:14] [Server thread/INFO]: adrianox27 issued server command: /back
-[02:40:36] [Server thread/INFO]: adrianox27 issued server command: /shop
-[02:40:40] [Server thread/INFO]: Shop >> adrianox27 bought 33 x Iron Ingot(Ores.page1.items.16) for $182.16 with the buy screen.
-[02:40:45] [Server thread/INFO]: adrianox27 issued server command: /shop
-[02:40:52] [Server thread/INFO]: Shop >> adrianox27 bought 33 x Oak Log(Blocks.page5.items.230) for $99.00 with the buy screen.
-[02:42:07] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/19601, uuid='b5861b8c-8fc7-4ce0-a56e-94764507ae15', l='ServerLevel[world]', x=290.50, y=-14.00, z=-311.50, cpos=[18, -20], tl=510, v=true] died: Skeletal Knight suffocated in a wall
-[02:46:19] [Server thread/INFO]: Coghi77 has made the advancement [Acquire Hardware]
-[02:48:24] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/21208, uuid='89fd3e2c-bf71-449a-8c49-ea7b03f190f5', l='ServerLevel[world]', x=401.50, y=-8.00, z=-391.50, cpos=[25, -25], tl=400, v=true] died: Skeletal Knight suffocated in a wall
-[02:51:51] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/22211, uuid='a7e3fa9d-b334-48dd-95f4-a6c5b152ce07', l='ServerLevel[world]', x=420.50, y=-8.00, z=-367.50, cpos=[26, -23], tl=393, v=true] died: Skeletal Knight suffocated in a wall
-[02:52:16] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/22333, uuid='3bf46614-8eab-46b8-90d9-b9ae1531f310', l='ServerLevel[world]', x=436.50, y=15.00, z=-311.30, cpos=[27, -20], tl=391, v=true] died: Skeletal Knight suffocated in a wall
-[02:56:35] [Server thread/INFO]: Coghi77 lost connection: Disconnected
-[02:56:35] [Server thread/INFO]: Coghi77 left the game
-[02:57:58] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/23630, uuid='113d0d01-facd-4f94-b1bf-f7da75a0b163', l='ServerLevel[world]', x=308.50, y=71.00, z=-396.50, cpos=[19, -25], tl=497, v=true] died: Skeletal Knight suffocated in a wall
+[03:08:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[03:08:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[03:08:17] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[03:08:17] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.8.2-6a2683d7
+[03:08:17] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[03:08:17] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[03:08:17] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[03:08:17] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.3
+[03:08:17] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[03:08:17] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.12.2
+[03:08:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:08:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[03:08:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[03:08:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[03:08:17] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[03:08:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:08:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:08:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:08:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:08:17] [Server thread/INFO]: Preparing level "world"
+[03:08:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:08:20] [Server thread/INFO]: Time elapsed: 1666 ms
+[03:08:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:08:20] [Server thread/INFO]: Time elapsed: 198 ms
+[03:08:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:08:20] [Server thread/INFO]: Time elapsed: 162 ms
+[03:08:20] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.8.2-6a2683d7
+[03:08:21] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.1)...
+[03:08:21] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[03:08:24] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
+[03:08:24] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data
+[03:08:24] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data/worlds
+[03:08:28] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[03:08:28] [Server thread/INFO]: [MythicMobs] Loading Items...
+[03:08:29] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[03:08:29] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[03:08:29] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[03:08:29] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[03:08:29] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[03:08:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[03:08:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[03:08:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[03:08:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[03:08:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[03:08:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[03:08:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[03:08:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[03:08:29] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[03:08:30] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[03:08:30] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.8.2 ( build 6a2683d7 ) has been successfully loaded!
+[03:08:30] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[03:08:31] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[03:08:31] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[03:08:31] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[03:08:32] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[03:08:32] [Server thread/INFO]: [Essentials] Using locale en
+[03:08:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:08:32] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:08:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[03:08:33] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[03:08:33] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.3
+[03:08:34] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[03:08:35] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[03:08:35] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
+[03:08:35] [Server thread/INFO]: [AuraSkills] Loaded 158 config options in 75 ms
+[03:08:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[03:08:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[03:08:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[03:08:35] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[03:08:35] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[03:08:36] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.12.2
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.1...
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[03:08:36] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[03:08:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 666ms to complete
+[03:08:37] [Server thread/INFO]: [spark] Starting background profiler...
+[03:08:37] [Server thread/INFO]: Done preparing level "world" (20.107s)
+[03:08:37] [Server thread/INFO]: Running delayed init tasks
+[03:08:37] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[03:08:37] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[03:08:38] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
+[03:08:38] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[03:08:38] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[03:08:38] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[03:08:39] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:08:39] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[03:08:39] [Server thread/INFO]: Done (38.247s)! For help, type "help"
+[03:08:39] [Server thread/INFO]: Timings Reset
+[03:08:39] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[03:08:39] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[03:12:12] [User Authenticator #0/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[03:12:14] [Server thread/INFO]: adrianox27 joined the game
+[03:12:14] [Server thread/INFO]: adrianox27[/127.190.71.39:38199] logged in with entity id 41 at ([world]366.66302171426025, 53.0, -303.30000001192093)
+[03:12:15] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 62c407c3-738c-49c8-8bf2-e47819107089, mapped to Bat['Bat'/96, uuid='62c407c3-738c-49c8-8bf2-e47819107089', l='ServerLevel[world]', x=316.17, y=21.89, z=-288.12, cpos=[19, -19], tl=55, v=true], can't add Bat['Bat'/100, uuid='62c407c3-738c-49c8-8bf2-e47819107089', l='ServerLevel[world]', x=318.08, y=21.05, z=-286.75, cpos=[19, -18], tl=65, v=false]
+[03:12:15] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 5b8a2af2-f630-467a-b483-9446cdf4adef, mapped to EnderMan['Enderman'/107, uuid='5b8a2af2-f630-467a-b483-9446cdf4adef', l='ServerLevel[world]', x=398.71, y=34.00, z=-241.49, cpos=[24, -16], tl=7512, v=true], can't add EnderMan['Enderman'/130, uuid='5b8a2af2-f630-467a-b483-9446cdf4adef', l='ServerLevel[world]', x=402.23, y=33.00, z=-239.76, cpos=[25, -15], tl=9187, v=false]
+[03:12:16] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ec2087f1-14f4-428f-8f25-c8bfb3f5e06a, mapped to Bat['Bat'/203, uuid='ec2087f1-14f4-428f-8f25-c8bfb3f5e06a', l='ServerLevel[world]', x=288.44, y=52.35, z=-386.41, cpos=[18, -25], tl=359, v=true], can't add Bat['Bat'/211, uuid='ec2087f1-14f4-428f-8f25-c8bfb3f5e06a', l='ServerLevel[world]', x=279.38, y=50.12, z=-387.76, cpos=[17, -25], tl=470, v=false]
+[03:14:52] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/576, uuid='e4297e2d-8d54-41c9-8c7e-973035b46f66', l='ServerLevel[world]', x=353.50, y=70.00, z=-358.50, cpos=[22, -23], tl=498, v=true] died: Skeletal Knight suffocated in a wall
+[03:15:34] [Server thread/INFO]: adrianox27 lost connection: Timed out
+[03:15:34] [Server thread/INFO]: adrianox27 left the game

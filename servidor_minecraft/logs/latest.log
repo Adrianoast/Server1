@@ -280,3 +280,18 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:53:20] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
 [01:53:32] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
 [01:53:33] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Player adrianox27 tried to mine a spawner with a not allowed spawner-break-tool: ItemStack{ZOMBIE_SPAWN_EGG x 1}
+[01:54:18] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:54:35] [Server thread/INFO]: adrianox27 issued server command: /pay adrianox27 120000
+[01:54:43] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
+[01:54:55] [Server thread/INFO]: adrianox27 issued server command: /pay adrianox27 120000
+[01:55:01] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[01:55:16] [Server thread/INFO]: adrianox27 issued server command: /balance adrianox27
+[01:55:26] [Server thread/INFO]: adrianox27 issued server command: /balance adrianox27 123445
+[01:55:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/pay adrianox27 120000<--[HERE]
+[01:56:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/pay adrianox27 120000,00<--[HERE]
+[01:56:29] [Server thread/INFO]: adrianox27 issued server command: /shopgive
+[01:56:45] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:57:18] [Server thread/INFO]: adrianox27 issued server command: /shopgive Spawners page1.items.38 adrianox27 1
+[01:58:44] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/9130, uuid='dc11fa0a-9bed-44ed-900b-69306528efc7', l='ServerLevel[world]', x=315.50, y=-21.00, z=-323.50, cpos=[19, -21], tl=509, v=true] died: Skeletal Knight suffocated in a wall

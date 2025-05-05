@@ -217,3 +217,17 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:03:33] [Server thread/INFO]: adrianox27 issued server command: /sethome
 [01:11:51] [Server thread/INFO]: adrianox27 issued server command: /home home
 [01:12:20] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:16:06] [Server thread/INFO]: adrianox27 has made the advancement [Hot Stuff]
+[01:19:08] [Server thread/INFO]: Villager Villager['Fletcher'/34, uuid='7e19ef68-164b-4997-9fd0-54e3c15fae6c', l='ServerLevel[world]', x=242.95, y=77.00, z=-382.76, cpos=[15, -24], tl=111437, v=true] died, message: 'Fletcher was slain by Zombie'
+[01:19:45] [Server thread/INFO]: Villager Villager['Fletcher'/31, uuid='a425caa1-f55d-4aaa-9bb8-bab721272079', l='ServerLevel[world]', x=243.76, y=76.92, z=-382.49, cpos=[15, -24], tl=110755, v=true] died, message: 'Fletcher was slain by Zombie'
+[01:19:49] [Server thread/INFO]: adrianox27 has made the advancement [Ice Bucket Challenge]
+[01:20:14] [Server thread/INFO]: Villager Villager['Fletcher'/33, uuid='5087285b-214d-4a51-99fc-17fdbbb34292', l='ServerLevel[world]', x=243.63, y=76.00, z=-380.31, cpos=[15, -24], tl=112762, v=true] died, message: 'Fletcher was slain by Zombie'
+[01:20:54] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:21:55] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/3764, uuid='677c5938-dbc8-40cd-94e6-0498cb32ab59', l='ServerLevel[world]', x=223.50, y=31.00, z=-363.50, cpos=[13, -23], tl=491, v=true] died: Skeletal Knight suffocated in a wall
+[01:22:04] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:22:57] [Server thread/INFO]: adrianox27 has made the advancement [Cover Me with Diamonds]
+[01:23:28] [Server thread/INFO]: adrianox27 issued server command: /chunky start
+[01:23:29] [ForkJoinPool.commonPool-worker-49/INFO]: [Chunky] Task running for world. Processed: 101 chunks (2.39%), ETA: 0:00:05, Rate: 789.1 cps, Current: 15, 8
+[01:23:30] [ForkJoinPool.commonPool-worker-32/INFO]: [Chunky] Task running for world. Processed: 2097 chunks (49.63%), ETA: 0:00:01, Rate: 1780.1 cps, Current: -29, -26
+[01:23:31] [ForkJoinPool.commonPool-worker-49/INFO]: [Chunky] Task running for world. Processed: 3284 chunks (77.73%), ETA: 0:00:00, Rate: 1475.3 cps, Current: -26, 15
+[01:23:32] [ForkJoinPool.commonPool-worker-49/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100.00%), Total time: 0:00:03

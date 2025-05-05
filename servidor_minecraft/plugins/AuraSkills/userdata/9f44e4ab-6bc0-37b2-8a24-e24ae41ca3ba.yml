@@ -5,13 +5,13 @@ skills:
     xp: 0.0
   auraskills/defense:
     level: 0
-    xp: 12.5
+    xp: 18.5
   auraskills/alchemy:
     level: 0
     xp: 0.0
   auraskills/foraging:
     level: 0
-    xp: 48.0
+    xp: 48.8
   auraskills/fishing:
     level: 0
     xp: 0.0
@@ -25,14 +25,14 @@ skills:
     level: 0
     xp: 0.0
   auraskills/agility:
-    level: 0
-    xp: 14.0
+    level: 1
+    xp: 19.049800000000005
   auraskills/enchanting:
     level: 0
     xp: 0.0
   auraskills/excavation:
     level: 0
-    xp: 0.0
-mana: 20.0
+    xp: 3.0999999999999996
+mana: 22.0
 action_bar:
   idle: true

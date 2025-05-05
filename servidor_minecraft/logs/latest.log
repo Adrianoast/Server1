@@ -231,3 +231,14 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:23:30] [ForkJoinPool.commonPool-worker-32/INFO]: [Chunky] Task running for world. Processed: 2097 chunks (49.63%), ETA: 0:00:01, Rate: 1780.1 cps, Current: -29, -26
 [01:23:31] [ForkJoinPool.commonPool-worker-49/INFO]: [Chunky] Task running for world. Processed: 3284 chunks (77.73%), ETA: 0:00:00, Rate: 1475.3 cps, Current: -26, 15
 [01:23:32] [ForkJoinPool.commonPool-worker-49/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100.00%), Total time: 0:00:03
+[01:23:57] [Server thread/INFO]: adrianox27 issued server command: /chunky reload
+[01:24:14] [Server thread/INFO]: adrianox27 issued server command: /chunky radius 500 500 500
+[01:24:22] [Server thread/INFO]: adrianox27 issued server command: /chunky start
+[01:24:22] [Chunky-world Thread/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100.00%), Total time: 0:00:00
+[01:24:37] [Server thread/INFO]: adrianox27 has made the advancement [Ol' Betsy]
+[01:24:37] [Server thread/INFO]: adrianox27 has made the advancement [Take Aim]
+[01:24:44] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/4205, uuid='fb63add6-bb30-4061-bd04-1d07b01e0224', l='ServerLevel[world]', x=123.50, y=-3.00, z=-247.50, cpos=[7, -16], tl=397, v=true] died: Skeletal Knight suffocated in a wall
+[01:25:13] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/4229, uuid='2f883514-1b42-4f03-bc87-4fab1a2c26fa', l='ServerLevel[world]', x=165.36, y=63.00, z=-168.39, cpos=[10, -11], tl=928, v=true] died: Skeletal Knight was slain by adrianox27
+[01:29:17] [Server thread/INFO]: adrianox27 has made the advancement [Who's the Pillager Now?]
+[01:31:22] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5184, uuid='260ee6d2-179b-4db9-b1d8-a02d78bd1ae9', l='ServerLevel[world]', x=220.48, y=70.00, z=-212.62, cpos=[13, -14], tl=1763, v=true] died: Skeletal Knight was slain by adrianox27
+[01:32:53] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5555, uuid='c46c36e5-883d-4474-ac18-c9574121115c', l='ServerLevel[world]', x=168.98, y=63.00, z=-168.38, cpos=[10, -11], tl=1214, v=true] died: Skeletal Knight was slain by adrianox27

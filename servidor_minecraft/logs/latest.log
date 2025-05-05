@@ -214,3 +214,6 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [00:58:01] [Server thread/INFO]: adrianox27 issued server command: /shop
 [00:58:06] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Saddle(Miscellaneous.page1.items.26) for $60.00 with the buy screen.
 [00:58:41] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/581, uuid='7e027164-31bb-4d72-ac63-b91d2be4272f', l='ServerLevel[world]', x=236.63, y=70.00, z=-306.93, cpos=[14, -20], tl=1179, v=true] died: Skeletal Knight was slain by adrianox27
+[01:03:33] [Server thread/INFO]: adrianox27 issued server command: /sethome
+[01:11:51] [Server thread/INFO]: adrianox27 issued server command: /home home
+[01:12:20] [Server thread/INFO]: adrianox27 issued server command: /shop

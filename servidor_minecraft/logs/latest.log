@@ -260,3 +260,23 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:39:46] [Server thread/INFO]: adrianox27 issued server command: /shop
 [01:39:49] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/6616, uuid='a8d6a354-364c-4d17-bbbd-2fef60a7f72f', l='ServerLevel[world]', x=248.35, y=36.00, z=-371.65, cpos=[15, -24], tl=392, v=true] died: Skeletal Knight suffocated in a wall
 [01:40:04] [Server thread/INFO]: Shop >> adrianox27 bought 16 x Bookshelf(Blocks.page1.items.35) for $1,905.92 with the buy screen.
+[01:44:31] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/7415, uuid='0119376b-69d1-4c1d-9ba3-3937f240fcde', l='ServerLevel[world]', x=135.50, y=-17.00, z=-181.50, cpos=[8, -12], tl=399, v=true] died: Skeletal Knight suffocated in a wall
+[01:44:48] [Server thread/INFO]: adrianox27 issued server command: /sethome presagio
+[01:44:53] [Server thread/INFO]: adrianox27 issued server command: /home home
+[01:44:59] [Server thread/INFO]: adrianox27 issued server command: /homes
+[01:45:05] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:45:11] [Server thread/INFO]: Shop >> adrianox27 bought 17 x Cooked Beef(Food.page1.items.11) for $107.10 with the buy screen.
+[01:45:27] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:45:46] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.14) for $705.60 with the buy screen.
+[01:45:56] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.23) for $160.00 with the buy screen.
+[01:46:21] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.9) for $972.41 with the buy screen.
+[01:46:42] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:46:49] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.40) for $441.00 with the buy screen.
+[01:47:03] [Server thread/INFO]: adrianox27 issued server command: /home presagio
+[01:47:18] [Server thread/INFO]: adrianox27 issued server command: /home home
+[01:48:04] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/8058, uuid='b59cfd55-540d-4176-830a-9a478da30ad4', l='ServerLevel[world]', x=236.50, y=-9.00, z=-390.50, cpos=[14, -25], tl=392, v=true] died: Skeletal Knight suffocated in a wall
+[01:48:54] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Player adrianox27 tried to mine a spawner with a not allowed spawner-break-tool: ItemStack{DIAMOND_PICKAXE x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={minecraft:efficiency=5, minecraft:fortune=3, minecraft:mending=1, minecraft:unbreaking=3}, repair-cost=15, Damage=346}}
+[01:52:48] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
+[01:53:20] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[01:53:32] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
+[01:53:33] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Player adrianox27 tried to mine a spawner with a not allowed spawner-break-tool: ItemStack{ZOMBIE_SPAWN_EGG x 1}

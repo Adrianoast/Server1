@@ -11,14 +11,14 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1746409128298
+  lastteleport: 1746409638298
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1746403932457
   login: 1746406442278
-money: '5831.69'
+money: '3445.58'
 last-account-name: adrianox27
 logoutlocation:
   world: 6d5de5c8-d240-4d55-8f58-e03e6b7cb7c7
@@ -37,11 +37,19 @@ homes:
     z: -384.02521729279476
     yaw: 170.3753662109375
     pitch: 10.35007095336914
+  presagio:
+    world: 6d5de5c8-d240-4d55-8f58-e03e6b7cb7c7
+    world-name: world
+    x: 183.9792380164907
+    y: 63.0
+    z: -184.82602169835332
+    yaw: -96.89741516113281
+    pitch: 8.399916648864746
 lastlocation:
   world: 6d5de5c8-d240-4d55-8f58-e03e6b7cb7c7
   world-name: world
-  x: 208.20966579829934
-  y: 69.0
-  z: -221.28123585757666
-  yaw: -147.5751953125
-  pitch: 8.100172996520996
+  x: 200.86011244076454
+  y: 63.0
+  z: -180.48543946229108
+  yaw: 19.802490234375
+  pitch: 24.749914169311523

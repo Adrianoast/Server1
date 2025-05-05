@@ -186,3 +186,20 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [19:55:43] [Server thread/INFO]: adrianox27 joined the game
 [19:55:43] [Server thread/INFO]: adrianox27[/127.190.71.39:58631] logged in with entity id 1990 at ([world]188.75633841152242, 63.0, -185.821176847157)
 [19:57:04] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/2191, uuid='bb221eb0-14e5-4275-b445-dfa39079b790', l='ServerLevel[world]', x=210.50, y=13.00, z=-244.50, cpos=[13, -16], tl=395, v=true] died: Skeletal Knight suffocated in a wall
+[19:59:28] [Server thread/INFO]: adrianox27 issued server command: /shop
+[20:00:53] [Server thread/INFO]: adrianox27 issued server command: /home home
+[20:00:55] [Server thread/INFO]: adrianox27 issued server command: /shop
+[20:01:22] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.33) for $972.41 with the buy screen.
+[20:01:33] [Server thread/INFO]: adrianox27 issued server command: /back
+[20:01:37] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
+[20:01:58] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[20:02:02] [Server thread/INFO]: adrianox27 issued server command: /shop
+[20:02:07] [Server thread/INFO]: Shop >> adrianox27 sold 2 x Ominous Bottle(Miscellaneous.page2.items.66) for $7,750.00 with the quick sell screen.
+[20:03:19] [Server thread/INFO]: adrianox27 issued server command: /shop
+[20:03:24] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Cooked Beef(Food.page1.items.11) for $403.20 with the buy screen.
+[20:04:16] [Server thread/INFO]: adrianox27 issued server command: /home home
+[20:04:22] [Server thread/INFO]: adrianox27 issued server command: /shop
+[20:04:29] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.33) for $972.41 with the buy screen.
+[20:04:34] [Server thread/INFO]: adrianox27 issued server command: /back
+[20:05:19] [Server thread/INFO]: adrianox27 lost connection: Disconnected
+[20:05:19] [Server thread/INFO]: adrianox27 left the game

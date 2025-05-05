@@ -17,13 +17,13 @@ skills:
     xp: 55.0
   auraskills/agility:
     level: 3
-    xp: 610.41458
+    xp: 618.11458
   auraskills/farming:
     level: 0
     xp: 0.0
   auraskills/fighting:
     level: 3
-    xp: 598.6999999999999
+    xp: 906.7000000000018
   auraskills/foraging:
     level: 4
     xp: 940.5599999999965
@@ -38,4 +38,4 @@ action_bar:
   idle: true
 ability_data:
   auraskills/xp_convert:
-    xp: 25.52628575294483
+    xp: 11.226285752944873

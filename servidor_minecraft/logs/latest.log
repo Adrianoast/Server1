@@ -387,3 +387,6 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [02:48:24] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/21208, uuid='89fd3e2c-bf71-449a-8c49-ea7b03f190f5', l='ServerLevel[world]', x=401.50, y=-8.00, z=-391.50, cpos=[25, -25], tl=400, v=true] died: Skeletal Knight suffocated in a wall
 [02:51:51] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/22211, uuid='a7e3fa9d-b334-48dd-95f4-a6c5b152ce07', l='ServerLevel[world]', x=420.50, y=-8.00, z=-367.50, cpos=[26, -23], tl=393, v=true] died: Skeletal Knight suffocated in a wall
 [02:52:16] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/22333, uuid='3bf46614-8eab-46b8-90d9-b9ae1531f310', l='ServerLevel[world]', x=436.50, y=15.00, z=-311.30, cpos=[27, -20], tl=391, v=true] died: Skeletal Knight suffocated in a wall
+[02:56:35] [Server thread/INFO]: Coghi77 lost connection: Disconnected
+[02:56:35] [Server thread/INFO]: Coghi77 left the game
+[02:57:58] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/23630, uuid='113d0d01-facd-4f94-b1bf-f7da75a0b163', l='ServerLevel[world]', x=308.50, y=71.00, z=-396.50, cpos=[19, -25], tl=497, v=true] died: Skeletal Knight suffocated in a wall

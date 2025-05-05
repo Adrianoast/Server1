@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1746413795055
   login: 1746411179299
 money: '0'
 last-account-name: Coghi77
+logoutlocation:
+  world: 6d5de5c8-d240-4d55-8f58-e03e6b7cb7c7
+  world-name: world
+  x: 404.69999998807907
+  y: 121.0
+  z: -680.3000000119209
+  yaw: -170.70367431640625
+  pitch: 5.550002098083496

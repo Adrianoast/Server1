@@ -369,3 +369,21 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [02:33:31] [Async Chat Thread - #1/INFO]: [Not Secure] <adrianox27> suave
 [02:33:36] [Server thread/INFO]: adrianox27 issued server command: /seed
 [02:33:42] [Async Chat Thread - #1/INFO]: [Not Secure] <Coghi77> JAJAJAJ
+[02:34:50] [Server thread/INFO]: adrianox27 issued server command: /execute in minecraft:overworld run tp adrianox27 -0.5 64 240.5
+[02:35:33] [Server thread/INFO]: adrianox27 issued server command: /execute in minecraft:overworld run tp adrianox27 -55.5 120 -279.5
+[02:35:43] [Server thread/INFO]: adrianox27 issued server command: /home home
+[02:35:49] [Async Chat Thread - #3/INFO]: [Not Secure] <adrianox27> no sabo donde hay
+[02:35:52] [Server thread/INFO]: Coghi77 has made the advancement [Stone Age]
+[02:36:06] [Async Chat Thread - #3/INFO]: [Not Secure] <Coghi77> jaaa
+[02:36:09] [Async Chat Thread - #3/INFO]: [Not Secure] <Coghi77> bno
+[02:37:55] [Server thread/INFO]: adrianox27 issued server command: /home spawner
+[02:38:14] [Server thread/INFO]: adrianox27 issued server command: /back
+[02:40:36] [Server thread/INFO]: adrianox27 issued server command: /shop
+[02:40:40] [Server thread/INFO]: Shop >> adrianox27 bought 33 x Iron Ingot(Ores.page1.items.16) for $182.16 with the buy screen.
+[02:40:45] [Server thread/INFO]: adrianox27 issued server command: /shop
+[02:40:52] [Server thread/INFO]: Shop >> adrianox27 bought 33 x Oak Log(Blocks.page5.items.230) for $99.00 with the buy screen.
+[02:42:07] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/19601, uuid='b5861b8c-8fc7-4ce0-a56e-94764507ae15', l='ServerLevel[world]', x=290.50, y=-14.00, z=-311.50, cpos=[18, -20], tl=510, v=true] died: Skeletal Knight suffocated in a wall
+[02:46:19] [Server thread/INFO]: Coghi77 has made the advancement [Acquire Hardware]
+[02:48:24] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/21208, uuid='89fd3e2c-bf71-449a-8c49-ea7b03f190f5', l='ServerLevel[world]', x=401.50, y=-8.00, z=-391.50, cpos=[25, -25], tl=400, v=true] died: Skeletal Knight suffocated in a wall
+[02:51:51] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/22211, uuid='a7e3fa9d-b334-48dd-95f4-a6c5b152ce07', l='ServerLevel[world]', x=420.50, y=-8.00, z=-367.50, cpos=[26, -23], tl=393, v=true] died: Skeletal Knight suffocated in a wall
+[02:52:16] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/22333, uuid='3bf46614-8eab-46b8-90d9-b9ae1531f310', l='ServerLevel[world]', x=436.50, y=15.00, z=-311.30, cpos=[27, -20], tl=391, v=true] died: Skeletal Knight suffocated in a wall

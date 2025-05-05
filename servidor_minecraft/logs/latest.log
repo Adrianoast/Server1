@@ -242,3 +242,21 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:29:17] [Server thread/INFO]: adrianox27 has made the advancement [Who's the Pillager Now?]
 [01:31:22] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5184, uuid='260ee6d2-179b-4db9-b1d8-a02d78bd1ae9', l='ServerLevel[world]', x=220.48, y=70.00, z=-212.62, cpos=[13, -14], tl=1763, v=true] died: Skeletal Knight was slain by adrianox27
 [01:32:53] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5555, uuid='c46c36e5-883d-4474-ac18-c9574121115c', l='ServerLevel[world]', x=168.98, y=63.00, z=-168.38, cpos=[10, -11], tl=1214, v=true] died: Skeletal Knight was slain by adrianox27
+[01:33:50] [Server thread/INFO]: adrianox27 has made the advancement [Voluntary Exile]
+[01:34:00] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:35:42] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
+[01:35:57] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[01:36:00] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:36:15] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:36:34] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:36:37] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[01:36:41] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
+[01:36:51] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[01:37:22] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:37:35] [Server thread/INFO]: Shop >> adrianox27 sold 2 x Ominous Bottle(Miscellaneous.page2.items.66) for $7,750.00 with the quick sell screen.
+[01:38:48] [Server thread/INFO]: adrianox27 issued server command: /home home
+[01:39:28] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:39:37] [Server thread/INFO]: Shop >> adrianox27 bought 6 x Shulker Shell(Miscellaneous.page1.items.29) for $42.00 with the buy screen.
+[01:39:46] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:39:49] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/6616, uuid='a8d6a354-364c-4d17-bbbd-2fef60a7f72f', l='ServerLevel[world]', x=248.35, y=36.00, z=-371.65, cpos=[15, -24], tl=392, v=true] died: Skeletal Knight suffocated in a wall
+[01:40:04] [Server thread/INFO]: Shop >> adrianox27 bought 16 x Bookshelf(Blocks.page1.items.35) for $1,905.92 with the buy screen.

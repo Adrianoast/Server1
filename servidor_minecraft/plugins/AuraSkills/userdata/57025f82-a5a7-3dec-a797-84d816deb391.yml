@@ -5,7 +5,7 @@ skills:
     xp: 70.0
   auraskills/defense:
     level: 3
-    xp: 365.0045487880715
+    xp: 642.7545487880707
   auraskills/mining:
     level: 4
     xp: 633.4700000000238
@@ -17,13 +17,13 @@ skills:
     xp: 715.0
   auraskills/agility:
     level: 3
-    xp: 679.2921800000004
+    xp: 946.1788000000005
   auraskills/farming:
     level: 0
-    xp: 0.0
+    xp: 4.199999999999999
   auraskills/fighting:
     level: 5
-    xp: 478.20000000000385
+    xp: 1479.200000000004
   auraskills/foraging:
     level: 4
     xp: 1081.3599999999958
@@ -38,6 +38,6 @@ action_bar:
   idle: true
 ability_data:
   auraskills/xp_convert:
-    xp: 12.384024607925316
+    xp: 2.2206446079253794
   auraskills/first_strike:
-    counter: 8
+    counter: 11

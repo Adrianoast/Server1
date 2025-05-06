@@ -194,3 +194,25 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [00:59:26] [Server thread/INFO]: Shop >> adrianox27 sold 1 x Ominous Bottle(Miscellaneous.page2.items.66) for $3,875.00 with the quick sell screen.
 [01:03:53] [Server thread/INFO]: adrianox27 issued server command: /shop
 [01:03:57] [Server thread/INFO]: Shop >> adrianox27 sold 1 x Ominous Bottle(Miscellaneous.page2.items.66) for $3,875.00 with the quick sell screen.
+[01:05:05] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/4298, uuid='a20ee8b2-3ddd-4631-bb0f-b7d9808e4d64', l='ServerLevel[world]', x=157.50, y=-4.00, z=-141.50, cpos=[9, -9], tl=394, v=true] died: Skeletal Knight suffocated in a wall
+[01:06:18] [Server thread/INFO]: adrianox27 issued server command: /time set day
+[01:08:50] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:08:53] [Server thread/INFO]: Shop >> adrianox27 sold 1 x Ominous Bottle(Miscellaneous.page2.items.66) for $3,875.00 with the quick sell screen.
+[01:09:13] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:09:17] [Server thread/INFO]: Shop >> adrianox27 sold 1 x Ominous Bottle(Miscellaneous.page2.items.66) for $3,875.00 with the quick sell screen.
+[01:09:29] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/4985, uuid='2dfd0faa-157a-4ce4-9f90-515f11c822b2', l='ServerLevel[world]', x=150.50, y=-4.00, z=-129.50, cpos=[9, -9], tl=505, v=true] died: Skeletal Knight suffocated in a wall
+[01:11:18] [Server thread/INFO]: adrianox27 lost connection: Disconnected
+[01:11:18] [Server thread/INFO]: adrianox27 left the game
+[01:11:39] [User Authenticator #2/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[01:11:41] [Server thread/INFO]: adrianox27 joined the game
+[01:11:41] [Server thread/INFO]: adrianox27[/127.190.71.39:54191] logged in with entity id 5340 at ([world]204.76200329038568, 63.0, -191.36462765506982)
+[01:12:40] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:12:46] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Dirt(Blocks.page3.items.109) for $192.00 with the buy screen.
+[01:13:26] [Server thread/INFO]: adrianox27 issued server command: /home home
+[01:13:41] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:14:04] [Server thread/INFO]: Shop >> adrianox27 bought 4 x Enchanted Book(Enchanting.page1.items.27) for $3,704.40 with the buy screen.
+[01:14:19] [Server thread/INFO]: Shop >> adrianox27 bought 4 x Enchanted Book(Enchanting.page1.items.40) for $1,764.00 with the buy screen.
+[01:14:37] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:14:44] [Server thread/INFO]: Shop >> adrianox27 bought 32 x Lapis Block(Ores.page1.items.17) for $2,183.04 with the buy screen.
+[01:15:00] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:15:07] [Server thread/INFO]: Shop >> adrianox27 bought 32 x Diamond(Ores.page1.items.9) for $1,680.00 with the buy screen.

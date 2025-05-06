@@ -185,3 +185,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [02:31:32] [Server thread/INFO]: Shop >> adrianox27 bought 5 x Coal(Ores.page1.items.4) for $26.25 with the buy screen.
 [02:31:35] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/605, uuid='f3f2b2af-f8fc-48c7-86bc-d8bb84570ba6', l='ServerLevel[world]', x=163.28, y=30.00, z=-213.49, cpos=[10, -14], tl=2406, v=true] died: Skeletal Knight was slain by Iron Golem
 [02:42:01] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/2092, uuid='0fc39d1f-ed7d-4f51-8ed3-5656566922ec', l='ServerLevel[world]', x=213.50, y=27.00, z=-292.50, cpos=[13, -19], tl=401, v=true] died: Skeletal Knight suffocated in a wall
+[02:45:39] [Server thread/WARN]: adrianox27 moved wrongly!
+[02:52:29] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/3673, uuid='2acd489c-4e18-40b7-bf92-19cbe3fe9cb6', l='ServerLevel[world]', x=108.50, y=-5.00, z=-151.50, cpos=[6, -10], tl=409, v=true] died: Skeletal Knight suffocated in a wall
+[02:53:28] [Server thread/INFO]: adrianox27 issued server command: /shop
+[02:53:33] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Lava Bucket(Miscellaneous.page1.items.15) for $18.40 with the buy screen.

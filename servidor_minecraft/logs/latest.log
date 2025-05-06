@@ -269,3 +269,16 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:55:54] [Server thread/INFO]: adrianox27 issued server command: /back
 [01:55:56] [Server thread/INFO]: adrianox27 issued server command: /shop
 [02:03:06] [Server thread/INFO]: adrianox27 issued server command: /home home
+[02:06:11] [Server thread/INFO]: adrianox27 issued server command: /shop
+[02:06:19] [Server thread/INFO]: Shop >> adrianox27 bought 7 x Glass(Blocks.page3.items.119) for $44.10 with the buy screen.
+[02:06:26] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Scaffolding(Miscellaneous.page1.items.28) for $85.12 with the buy screen.
+[02:06:30] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Scaffolding(Miscellaneous.page1.items.28) for $85.12 with the buy screen.
+[02:06:38] [Server thread/INFO]: Shop >> adrianox27 bought 16 x Shulker Shell(Miscellaneous.page1.items.29) for $112.00 with the buy screen.
+[02:06:47] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Elytra(Miscellaneous.page1.items.8) for $2,415.20 with the buy screen.
+[02:06:47] [Server thread/INFO]: adrianox27 has reached the goal [Sky's the Limit]
+[02:06:50] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Firework Rocket(Miscellaneous.page1.items.999) for $303.00 with the buy screen.
+[02:06:52] [Server thread/INFO]: Shop >> adrianox27 bought 2 x Firework Rocket(Miscellaneous.page1.items.999) for $606.00 with the buy screen.
+[02:06:56] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Firework Rocket(Miscellaneous.page1.items.999) for $19,392.00 with the buy stacks screen.
+[02:08:09] [Server thread/INFO]: adrianox27 issued server command: /shop
+[02:08:12] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Stonecutter(Workstations.page1.items.12) for $8.04 with the buy screen.
+[02:15:45] [Server thread/INFO]: adrianox27 issued server command: /bp

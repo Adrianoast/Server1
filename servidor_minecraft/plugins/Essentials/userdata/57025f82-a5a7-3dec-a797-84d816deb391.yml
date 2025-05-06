@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1746475519811
-  login: 1746491357018
+  logout: 1746491686882
+  login: 1746492056729
 money: '6752.1900000000000009'
 last-account-name: adrianox27
 logoutlocation:
   world: 6d5de5c8-d240-4d55-8f58-e03e6b7cb7c7
   world-name: world
-  x: 180.63416074276083
+  x: 178.3403606576862
   y: 63.0
-  z: -184.9047802984977
-  yaw: 79.918212890625
-  pitch: 22.799985885620117
+  z: -185.3083512988716
+  yaw: -2.728515625
+  pitch: 16.49983787536621
 homes:
   home:
     world: 6d5de5c8-d240-4d55-8f58-e03e6b7cb7c7

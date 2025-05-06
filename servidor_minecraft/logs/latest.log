@@ -174,3 +174,9 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [00:29:15] [User Authenticator #0/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
 [00:29:16] [Server thread/INFO]: adrianox27 joined the game
 [00:29:16] [Server thread/INFO]: adrianox27[/127.190.71.39:34791] logged in with entity id 35 at ([world]180.63416074276083, 63.0, -184.9047802984977)
+[00:34:46] [Server thread/INFO]: adrianox27 lost connection: Disconnected
+[00:34:46] [Server thread/INFO]: adrianox27 left the game
+[00:40:55] [User Authenticator #1/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[00:40:56] [Server thread/INFO]: adrianox27 joined the game
+[00:40:56] [Server thread/INFO]: adrianox27[/127.190.71.39:37591] logged in with entity id 1026 at ([world]178.3403606576862, 63.0, -185.3083512988716)
+[00:44:44] [Server thread/INFO]: adrianox27 issued server command: /shop

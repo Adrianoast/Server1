@@ -202,3 +202,5 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [03:14:55] [Server thread/INFO]: Coghi77 was blown up by Creeper
 [03:15:23] [Server thread/INFO]: Coghi77 was slain by Zombie
 [03:23:00] [Server thread/INFO]: Coghi77 was shot by Skeleton
+[03:29:51] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/6115, uuid='17fd7256-c3d2-4fe3-8d40-8ea56ac0553c', l='ServerLevel[world]', x=494.50, y=56.00, z=-770.50, cpos=[30, -49], tl=403, v=true] died: Skeletal Knight suffocated in a wall
+[03:32:09] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/6411, uuid='9cc6e1a8-f871-4def-8127-4f3a4e03c20b', l='ServerLevel[world]', x=393.50, y=27.00, z=-611.50, cpos=[24, -39], tl=393, v=true] died: Skeletal Knight suffocated in a wall

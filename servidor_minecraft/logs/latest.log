@@ -183,3 +183,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [17:41:27] [Server thread/INFO]: Shop >> adrianox27 sold 5 x Ominous Bottle(Miscellaneous.page2.items.66) for $19,375.00 with the quick sell screen.
 [17:41:31] [Server thread/INFO]: adrianox27 issued server command: /shop
 [17:42:18] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/1979, uuid='66ca7b42-ded3-4d57-b772-77ae1f7e98e3', l='ServerLevel[world]', x=157.50, y=20.00, z=-205.50, cpos=[9, -13], tl=391, v=true] died: Skeletal Knight suffocated in a wall
+[17:48:30] [Server thread/INFO]: adrianox27 issued server command: /shop
+[17:48:35] [Server thread/INFO]: Shop >> adrianox27 bought 3 x Iron Block(Ores.page1.items.15) for $156.30 with the buy screen.
+[17:48:39] [Server thread/INFO]: adrianox27 issued server command: /home home
+[17:48:50] [Server thread/INFO]: adrianox27 issued server command: /back

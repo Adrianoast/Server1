@@ -5,7 +5,7 @@ skills:
     xp: 10.0
   auraskills/defense:
     level: 4
-    xp: 828.004548788065
+    xp: 849.4545487880648
   auraskills/mining:
     level: 4
     xp: 819.5900000000414
@@ -17,7 +17,7 @@ skills:
     xp: 1477.2000000000003
   auraskills/agility:
     level: 4
-    xp: 797.4789200000009
+    xp: 799.0189200000009
   auraskills/farming:
     level: 0
     xp: 53.39999999999999
@@ -36,19 +36,8 @@ skills:
 mana: 32.0
 action_bar:
   idle: true
-stat_modifiers:
-  '0':
-    name: mining-stamina
-    stat: auraskills/toughness
-    operation: ADD
-    value: 1.0
-  '1':
-    name: AbilityModifier-EnchantedStrength
-    stat: auraskills/strength
-    operation: ADD
-    value: 2.0
 ability_data:
+  auraskills/xp_convert:
+    xp: 15.540764607925215
   auraskills/first_strike:
     counter: 19
-  auraskills/xp_convert:
-    xp: 22.550764607925217

@@ -265,3 +265,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:54:40] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.23) for $160.00 with the buy screen.
 [01:54:53] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.40) for $441.00 with the buy screen.
 [01:55:10] [Server thread/INFO]: adrianox27 issued server command: /back
+[01:55:52] [Server thread/INFO]: adrianox27 issued server command: /back
+[01:55:54] [Server thread/INFO]: adrianox27 issued server command: /back
+[01:55:56] [Server thread/INFO]: adrianox27 issued server command: /shop
+[02:03:06] [Server thread/INFO]: adrianox27 issued server command: /home home

@@ -1,28 +1,28 @@
-[19:48:46] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
-[19:48:46] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[19:48:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:48:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[19:48:47] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[00:24:45] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
+[00:24:45] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[00:24:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:24:48] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[00:24:48] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - EconomyShopGUI (6.12.2)
-[19:48:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[00:24:48] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - AuraSkills (2.3.3), CMI (9.7.13.0), Chunky (1.4.36), Essentials (2.21.0), MythicMobs (5.8.2-6a2683d7), Vault (1.7.3-b131)
-[19:48:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:48:54] [ServerMain/INFO]: Loaded 1290 recipes
-[19:48:54] [ServerMain/INFO]: Loaded 1399 advancements
-[19:48:55] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[19:48:55] [Server thread/INFO]: Loading properties
-[19:48:55] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[19:48:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:48:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:48:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:48:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[19:48:57] [Server thread/INFO]: Default game type: SURVIVAL
-[19:48:57] [Server thread/INFO]: Generating keypair
-[19:48:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:48:57] [Server thread/INFO]: Using epoll channel type
-[19:48:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:48:57] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:48:57] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/CMI-9.7.13.0.jar' in 'plugins/.paper-remapped'
+[00:24:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:24:56] [ServerMain/INFO]: Loaded 1290 recipes
+[00:24:56] [ServerMain/INFO]: Loaded 1399 advancements
+[00:24:57] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[00:24:57] [Server thread/INFO]: Loading properties
+[00:24:57] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[00:24:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:24:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:24:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:24:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[00:24:59] [Server thread/INFO]: Default game type: SURVIVAL
+[00:24:59] [Server thread/INFO]: Generating keypair
+[00:24:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:24:59] [Server thread/INFO]: Using epoll channel type
+[00:24:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:24:59] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:24:59] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/CMI-9.7.13.0.jar' in 'plugins/.paper-remapped'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [CMILib]. Please download and install these plugins to run 'CMI'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
@@ -32,174 +32,145 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[19:48:57] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[19:48:58] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[19:48:58] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.8.2-6a2683d7
-[19:48:58] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[19:48:58] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[19:48:58] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
-[19:48:58] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.3
-[19:48:58] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
-[19:48:58] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.12.2
-[19:48:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:48:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[19:48:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[19:48:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:48:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[19:48:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:48:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:48:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:48:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:48:58] [Server thread/INFO]: Preparing level "world"
-[19:48:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:49:01] [Server thread/INFO]: Time elapsed: 1464 ms
-[19:49:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:49:01] [Server thread/INFO]: Time elapsed: 468 ms
-[19:49:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:49:01] [Server thread/INFO]: Time elapsed: 239 ms
-[19:49:01] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.8.2-6a2683d7
-[19:49:02] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.1)...
-[19:49:02] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[19:49:05] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
-[19:49:05] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data
-[19:49:05] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data/worlds
-[19:49:08] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[19:49:09] [Server thread/INFO]: [MythicMobs] Loading Items...
-[19:49:09] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[19:49:09] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[19:49:09] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[19:49:09] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[19:49:09] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[19:49:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[19:49:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[19:49:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[19:49:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
-[19:49:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[19:49:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[19:49:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[19:49:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[19:49:09] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[19:49:10] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[19:49:10] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.8.2 ( build 6a2683d7 ) has been successfully loaded!
-[19:49:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
-[19:49:11] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[19:49:11] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[19:49:11] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[19:49:11] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[19:49:11] [Server thread/INFO]: [Essentials] Using locale en
-[19:49:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[19:49:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[19:49:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[19:49:12] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[19:49:12] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.3
-[19:49:13] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[19:49:13] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
-[19:49:13] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
-[19:49:14] [Server thread/INFO]: [AuraSkills] Loaded 158 config options in 53 ms
-[19:49:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[19:49:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[19:49:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[19:49:14] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[19:49:14] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[19:49:15] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.12.2
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.1...
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[19:49:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 649ms to complete
-[19:49:16] [Server thread/INFO]: [spark] Starting background profiler...
-[19:49:16] [Server thread/INFO]: Done preparing level "world" (17.554s)
-[19:49:16] [Server thread/INFO]: Running delayed init tasks
-[19:49:16] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[19:49:16] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[19:49:16] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
-[19:49:16] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[19:49:16] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[19:49:17] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[19:49:17] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:49:17] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
-[19:49:17] [Server thread/INFO]: Done (31.716s)! For help, type "help"
-[19:49:17] [Server thread/INFO]: Timings Reset
-[19:49:17] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
-[19:49:17] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
-[19:49:23] [User Authenticator #0/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
-[19:49:25] [Server thread/INFO]: adrianox27 joined the game
-[19:49:25] [Server thread/INFO]: adrianox27[/127.190.71.39:60153] logged in with entity id 42 at ([world]235.60454001513236, 82.9375, -353.4409231017864)
-[19:49:26] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: eed6a63a-8666-48ae-a8d4-a9235dbdaaf5, mapped to Bat['Bat'/43, uuid='eed6a63a-8666-48ae-a8d4-a9235dbdaaf5', l='ServerLevel[world]', x=239.05, y=34.49, z=-359.11, cpos=[14, -23], tl=475, v=true], can't add Bat['Bat'/51, uuid='eed6a63a-8666-48ae-a8d4-a9235dbdaaf5', l='ServerLevel[world]', x=241.00, y=34.19, z=-360.20, cpos=[15, -23], tl=465, v=false]
-[19:49:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 233ed6e5-21b7-4d24-8cf8-c0209b91477f, mapped to Bee['Bee'/191, uuid='233ed6e5-21b7-4d24-8cf8-c0209b91477f', l='ServerLevel[world]', x=313.49, y=89.54, z=-491.01, cpos=[19, -31], tl=43082, v=true], can't add Bee['Bee'/193, uuid='233ed6e5-21b7-4d24-8cf8-c0209b91477f', l='ServerLevel[world]', x=256.99, y=86.98, z=-528.00, cpos=[16, -34], tl=45298, v=false]
-[19:49:42] [Server thread/INFO]: adrianox27 issued server command: /shop
-[19:49:50] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.9) for $972.41 with the buy screen.
-[19:50:00] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.23) for $160.00 with the buy screen.
-[19:50:48] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/307, uuid='26dc5376-c305-4fdf-87a8-91f5e8039116', l='ServerLevel[world]', x=265.50, y=63.00, z=-396.50, cpos=[16, -25], tl=391, v=true] died: Skeletal Knight suffocated in a wall
-[19:55:42] [User Authenticator #1/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
-[19:55:42] [Server thread/INFO]: adrianox27 lost connection: You logged in from another location
-[19:55:42] [Server thread/INFO]: adrianox27 left the game
-[19:55:43] [Server thread/INFO]: adrianox27 joined the game
-[19:55:43] [Server thread/INFO]: adrianox27[/127.190.71.39:58631] logged in with entity id 1990 at ([world]188.75633841152242, 63.0, -185.821176847157)
-[19:57:04] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/2191, uuid='bb221eb0-14e5-4275-b445-dfa39079b790', l='ServerLevel[world]', x=210.50, y=13.00, z=-244.50, cpos=[13, -16], tl=395, v=true] died: Skeletal Knight suffocated in a wall
-[19:59:28] [Server thread/INFO]: adrianox27 issued server command: /shop
-[20:00:53] [Server thread/INFO]: adrianox27 issued server command: /home home
-[20:00:55] [Server thread/INFO]: adrianox27 issued server command: /shop
-[20:01:22] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.33) for $972.41 with the buy screen.
-[20:01:33] [Server thread/INFO]: adrianox27 issued server command: /back
-[20:01:37] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
-[20:01:58] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
-[20:02:02] [Server thread/INFO]: adrianox27 issued server command: /shop
-[20:02:07] [Server thread/INFO]: Shop >> adrianox27 sold 2 x Ominous Bottle(Miscellaneous.page2.items.66) for $7,750.00 with the quick sell screen.
-[20:03:19] [Server thread/INFO]: adrianox27 issued server command: /shop
-[20:03:24] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Cooked Beef(Food.page1.items.11) for $403.20 with the buy screen.
-[20:04:16] [Server thread/INFO]: adrianox27 issued server command: /home home
-[20:04:22] [Server thread/INFO]: adrianox27 issued server command: /shop
-[20:04:29] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.33) for $972.41 with the buy screen.
-[20:04:34] [Server thread/INFO]: adrianox27 issued server command: /back
-[20:05:19] [Server thread/INFO]: adrianox27 lost connection: Disconnected
-[20:05:19] [Server thread/INFO]: adrianox27 left the game
+[00:24:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[00:25:00] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[00:25:01] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[00:25:01] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.8.2-6a2683d7
+[00:25:01] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[00:25:01] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[00:25:01] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[00:25:01] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.3
+[00:25:01] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[00:25:01] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.12.2
+[00:25:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:25:01] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[00:25:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:25:01] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:25:01] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[00:25:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:25:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:25:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:25:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:25:01] [Server thread/INFO]: Preparing level "world"
+[00:25:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:25:04] [Server thread/INFO]: Time elapsed: 1511 ms
+[00:25:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:25:04] [Server thread/INFO]: Time elapsed: 286 ms
+[00:25:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:25:04] [Server thread/INFO]: Time elapsed: 187 ms
+[00:25:04] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.8.2-6a2683d7
+[00:25:05] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.1)...
+[00:25:05] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[00:25:07] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
+[00:25:08] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data
+[00:25:08] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data/worlds
+[00:25:11] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[00:25:12] [Server thread/INFO]: [MythicMobs] Loading Items...
+[00:25:13] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[00:25:13] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[00:25:13] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[00:25:13] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[00:25:13] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[00:25:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[00:25:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[00:25:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[00:25:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[00:25:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[00:25:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[00:25:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[00:25:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[00:25:13] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[00:25:14] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[00:25:14] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.8.2 ( build 6a2683d7 ) has been successfully loaded!
+[00:25:14] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[00:25:15] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[00:25:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:25:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:25:15] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:25:15] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[00:25:15] [Server thread/INFO]: [Essentials] Using locale en
+[00:25:15] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:25:15] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:25:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[00:25:15] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:25:15] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.3
+[00:25:16] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[00:25:17] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[00:25:17] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
+[00:25:17] [Server thread/INFO]: [AuraSkills] Loaded 158 config options in 54 ms
+[00:25:17] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[00:25:17] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[00:25:17] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[00:25:17] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[00:25:17] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[00:25:18] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.12.2
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.1...
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[00:25:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[00:25:19] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 742ms to complete
+[00:25:19] [Server thread/INFO]: [spark] Starting background profiler...
+[00:25:19] [Server thread/INFO]: Done preparing level "world" (17.961s)
+[00:25:19] [Server thread/INFO]: Running delayed init tasks
+[00:25:19] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[00:25:19] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:25:20] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
+[00:25:20] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[00:25:20] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[00:25:20] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[00:25:20] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:25:20] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[00:25:20] [Server thread/INFO]: Done (37.908s)! For help, type "help"
+[00:25:20] [Server thread/INFO]: Timings Reset
+[00:25:20] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[00:25:20] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[00:29:15] [User Authenticator #0/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[00:29:16] [Server thread/INFO]: adrianox27 joined the game
+[00:29:16] [Server thread/INFO]: adrianox27[/127.190.71.39:34791] logged in with entity id 35 at ([world]180.63416074276083, 63.0, -184.9047802984977)

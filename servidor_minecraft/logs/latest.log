@@ -194,3 +194,10 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [03:08:36] [Server thread/INFO]: adrianox27 issued server command: /shop
 [03:08:44] [Server thread/INFO]: Shop >> adrianox27 bought 8 x Glass(Blocks.page3.items.119) for $50.40 with the buy screen.
 [03:08:57] [Server thread/INFO]: adrianox27 issued server command: /shop
+[03:09:05] [Server thread/INFO]: Shop >> adrianox27 bought 4 x Glass(Blocks.page3.items.119) for $25.20 with the buy screen.
+[03:09:57] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/3227, uuid='e9dddf1e-c592-4a7e-ab9d-2125b271813d', l='ServerLevel[world]', x=408.50, y=113.00, z=-637.50, cpos=[25, -40], tl=391, v=true] died: Skeletal Knight suffocated in a wall
+[03:12:34] [Server thread/INFO]: adrianox27 lost connection: Timed out
+[03:12:34] [Server thread/INFO]: adrianox27 left the game
+[03:14:31] [Server thread/INFO]: Coghi77 hit the ground too hard while trying to escape Zombie
+[03:14:55] [Server thread/INFO]: Coghi77 was blown up by Creeper
+[03:15:23] [Server thread/INFO]: Coghi77 was slain by Zombie

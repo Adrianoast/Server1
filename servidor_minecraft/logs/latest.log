@@ -187,3 +187,8 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [17:48:35] [Server thread/INFO]: Shop >> adrianox27 bought 3 x Iron Block(Ores.page1.items.15) for $156.30 with the buy screen.
 [17:48:39] [Server thread/INFO]: adrianox27 issued server command: /home home
 [17:48:50] [Server thread/INFO]: adrianox27 issued server command: /back
+[17:54:57] [Server thread/INFO]: adrianox27 issued server command: /shop
+[17:55:01] [Server thread/INFO]: Shop >> adrianox27 bought 2 x Iron Block(Ores.page1.items.15) for $104.20 with the buy screen.
+[17:59:40] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5099, uuid='c776fafb-c991-448d-9b06-08281ef221e8', l='ServerLevel[world]', x=226.50, y=25.00, z=-190.50, cpos=[14, -12], tl=492, v=true] died: Skeletal Knight suffocated in a wall
+[17:59:42] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5136, uuid='6e241064-d72c-4479-8bd4-6cbf56fd326f', l='ServerLevel[world]', x=219.50, y=30.00, z=-190.50, cpos=[13, -12], tl=394, v=true] died: Skeletal Knight suffocated in a wall
+[18:02:07] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5391, uuid='3774624d-aab4-4972-a446-755064833482', l='ServerLevel[world]', x=213.51, y=17.00, z=-175.64, cpos=[13, -11], tl=405, v=true] died: Skeletal Knight suffocated in a wall

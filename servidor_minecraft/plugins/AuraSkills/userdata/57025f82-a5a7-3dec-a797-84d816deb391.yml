@@ -17,7 +17,7 @@ skills:
     xp: 1477.2000000000003
   auraskills/agility:
     level: 4
-    xp: 836.665320000001
+    xp: 910.9914400000009
   auraskills/farming:
     level: 0
     xp: 53.39999999999999
@@ -38,6 +38,6 @@ action_bar:
   idle: true
 ability_data:
   auraskills/xp_convert:
-    xp: 24.53716460792524
+    xp: 8.863284607925252
   auraskills/first_strike:
     counter: 19

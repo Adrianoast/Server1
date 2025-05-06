@@ -192,3 +192,11 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [17:59:40] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5099, uuid='c776fafb-c991-448d-9b06-08281ef221e8', l='ServerLevel[world]', x=226.50, y=25.00, z=-190.50, cpos=[14, -12], tl=492, v=true] died: Skeletal Knight suffocated in a wall
 [17:59:42] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5136, uuid='6e241064-d72c-4479-8bd4-6cbf56fd326f', l='ServerLevel[world]', x=219.50, y=30.00, z=-190.50, cpos=[13, -12], tl=394, v=true] died: Skeletal Knight suffocated in a wall
 [18:02:07] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/5391, uuid='3774624d-aab4-4972-a446-755064833482', l='ServerLevel[world]', x=213.51, y=17.00, z=-175.64, cpos=[13, -11], tl=405, v=true] died: Skeletal Knight suffocated in a wall
+[18:14:21] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/6703, uuid='9077c6c5-46cb-4582-988b-416f4309de3c', l='ServerLevel[world]', x=228.50, y=25.00, z=-168.50, cpos=[14, -11], tl=507, v=true] died: Skeletal Knight suffocated in a wall
+[18:15:20] [Server thread/INFO]: adrianox27 issued server command: /shop
+[18:15:23] [Server thread/INFO]: Shop >> adrianox27 sold 7 x Ominous Bottle(Miscellaneous.page2.items.66) for $27,125.00 with the quick sell screen.
+[18:18:01] [Server thread/INFO]: adrianox27 issued server command: /home home
+[18:18:44] [Server thread/INFO]: adrianox27 issued server command: /back
+[18:18:49] [Server thread/INFO]: adrianox27 issued server command: /back
+[18:18:57] [Server thread/INFO]: adrianox27 issued server command: /back
+[18:19:29] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/7649, uuid='2c6fce82-ff98-4c49-8fb5-7006638bfa14', l='ServerLevel[world]', x=162.50, y=30.00, z=-224.50, cpos=[10, -15], tl=605, v=true] died: Skeletal Knight suffocated in a wall

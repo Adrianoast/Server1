@@ -248,3 +248,20 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [01:43:00] [Server thread/INFO]: adrianox27 has reached the goal [Beaconator]
 [01:43:00] [Server thread/INFO]: adrianox27 has made the advancement [Bring Home the Beacon]
 [01:44:52] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/9793, uuid='1af9ca18-f517-4fc1-bb2e-25c306558ecb', l='ServerLevel[world]', x=206.33, y=63.00, z=-165.88, cpos=[12, -11], tl=118, v=true] died: Skeletal Knight was slain by adrianox27
+[01:50:07] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:50:12] [Server thread/INFO]: Shop >> adrianox27 sold 320 x Cobblestone(Blocks.page1.items.51) for $54.40 with the quick sell screen.
+[01:50:18] [Server thread/INFO]: Shop >> adrianox27 sold 256 x Gravel(Blocks.page3.items.111) for $512.00 with the quick sell screen.
+[01:50:21] [Server thread/INFO]: Shop >> adrianox27 sold 4 x Granite(Blocks.page3.items.122) for $0.72 with the quick sell screen.
+[01:50:36] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:50:38] [Server thread/INFO]: Shop >> adrianox27 sold 192 x Cobblestone(Blocks.page1.items.51) for $32.64 with the quick sell screen.
+[01:50:41] [Server thread/INFO]: Shop >> adrianox27 sold 196 x Gravel(Blocks.page3.items.111) for $392.00 with the quick sell screen.
+[01:50:52] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:50:56] [Server thread/INFO]: Shop >> adrianox27 sold 199 x Dirt(Blocks.page3.items.109) for $149.25 with the quick sell screen.
+[01:50:59] [Server thread/INFO]: Shop >> adrianox27 sold 14 x Gravel(Blocks.page3.items.111) for $28.00 with the quick sell screen.
+[01:51:03] [Server thread/INFO]: Shop >> adrianox27 sold 45 x Cobblestone(Blocks.page1.items.51) for $7.65 with the quick sell screen.
+[01:54:14] [Server thread/INFO]: adrianox27 issued server command: /home home
+[01:54:18] [Server thread/INFO]: adrianox27 issued server command: /shop
+[01:54:29] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.9) for $972.41 with the buy screen.
+[01:54:40] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.23) for $160.00 with the buy screen.
+[01:54:53] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.40) for $441.00 with the buy screen.
+[01:55:10] [Server thread/INFO]: adrianox27 issued server command: /back

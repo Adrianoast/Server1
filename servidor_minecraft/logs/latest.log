@@ -193,3 +193,18 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [19:21:53] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/3696, uuid='4a30e019-281a-4e22-b49f-0e49a2835d86', l='ServerLevel[world]', x=339.50, y=74.00, z=-399.88, cpos=[21, -25], tl=402, v=true] died: Skeletal Knight suffocated in a wall
 [19:32:22] [Server thread/INFO]: adrianox27 lost connection: Disconnected
 [19:32:22] [Server thread/INFO]: adrianox27 left the game
+[20:56:19] [User Authenticator #1/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[20:56:20] [Server thread/INFO]: adrianox27 joined the game
+[20:56:20] [Server thread/INFO]: adrianox27[/127.190.71.39:53647] logged in with entity id 4726 at ([world]230.69999998807907, 74.0, -375.3103930576259)
+[21:03:20] [Server thread/INFO]: adrianox27 issued server command: /shop
+[21:03:26] [Server thread/INFO]: Shop >> adrianox27 bought 32 x Diamond(Ores.page1.items.9) for $1,680.00 with the buy screen.
+[21:03:29] [Server thread/INFO]: adrianox27 issued server command: /shop
+[21:03:38] [Server thread/INFO]: Shop >> adrianox27 bought 4 x Enchanted Book(Enchanting.page1.items.28) for $1,852.20 with the buy screen.
+[21:03:42] [Server thread/INFO]: adrianox27 issued server command: /shop
+[21:03:47] [Server thread/INFO]: Shop >> adrianox27 bought 4 x Enchanted Book(Enchanting.page1.items.23) for $640.00 with the buy screen.
+[21:04:16] [Server thread/INFO]: adrianox27 issued server command: /shop
+[21:04:23] [Server thread/INFO]: Shop >> adrianox27 bought 4 x Netherite Ingot(Ores.page1.items.20) for $9,470.48 with the buy screen.
+[21:04:30] [Server thread/INFO]: adrianox27 issued server command: /shop
+[21:04:34] [Server thread/INFO]: Shop >> adrianox27 bought 4 x Netherite Ingot(Ores.page1.items.20) for $9,470.48 with the buy screen.
+[21:04:48] [Server thread/INFO]: adrianox27 issued server command: /shop
+[21:04:55] [Server thread/INFO]: Shop >> adrianox27 bought 4 x Enchanted Book(Enchanting.page1.items.40) for $1,764.00 with the buy screen.

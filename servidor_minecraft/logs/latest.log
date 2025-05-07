@@ -185,3 +185,8 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [19:01:25] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/1627, uuid='8fe13ed8-a130-44de-9630-869eb85fe6da', l='ServerLevel[world]', x=279.50, y=24.00, z=-394.50, cpos=[17, -25], tl=395, v=true] died: Skeletal Knight suffocated in a wall
 [19:02:56] [Server thread/INFO]: adrianox27 issued server command: /shop
 [19:03:02] [Server thread/INFO]: Shop >> adrianox27 bought 2 x Water Bucket(Miscellaneous.page1.items.41) for $36.68 with the buy screen.
+[19:05:02] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/2053, uuid='18cd4606-b240-40c5-8201-7e0fa8e27678', l='ServerLevel[world]', x=315.51, y=46.00, z=-419.14, cpos=[19, -27], tl=393, v=true] died: Skeletal Knight suffocated in a wall
+[19:05:48] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:05:52] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Cobblestone(Blocks.page1.items.51) for $43.52 with the buy screen.
+[19:08:55] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:09:02] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Hopper(Redstone.page1.items.6) for $38.67 with the buy screen.

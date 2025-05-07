@@ -195,3 +195,11 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [17:57:10] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Crafter(Redstone.page1.items.2) for $50.26 with the buy screen.
 [17:57:11] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Crafter(Redstone.page1.items.2) for $50.26 with the buy screen.
 [17:57:14] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Lever(Redstone.page1.items.9) for $1.33 with the buy screen.
+[17:57:35] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Mud(Blocks.page3.items.129) for $3.19 with the buy screen.
+[17:57:42] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Bamboo(Farming.page1.items.1) for $0.10 with the buy screen.
+[17:58:01] [Server thread/INFO]: Shop >> adrianox27 bought 512 x Bone(Mobs.page1.items.4) for $3,072.00 with the buy stacks screen.
+[18:01:26] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/2101, uuid='019b29dc-77e9-4952-82f7-66c4902cb58d', l='ServerLevel[world]', x=232.50, y=20.00, z=-451.50, cpos=[14, -29], tl=505, v=true] died: Skeletal Knight suffocated in a wall
+[18:02:00] [Server thread/INFO]: adrianox27 issued server command: /shop
+[18:02:03] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Hopper(Redstone.page1.items.6) for $38.67 with the buy screen.
+[18:05:16] [Server thread/INFO]: adrianox27 issued server command: /shop
+[18:05:19] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Redstone(Ores.page1.items.23) for $3.50 with the buy screen.

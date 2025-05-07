@@ -2167,15 +2167,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/bamboo_trapdoor": {
+  "minecraft:recipes/building_blocks/packed_mud": {
     "criteria": {
-      "has_planks": "2025-05-07 18:11:52 +0000"
+      "has_mud": "2025-05-07 17:57:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-05-07 17:57:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-05-07 17:57:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-05-07 17:57:42 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2025-05-07 18:02:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-05-07 18:02:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-07 18:11:52 +0000"
     },
     "done": true
   },
@@ -2191,21 +2221,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/packed_mud": {
-    "criteria": {
-      "has_mud": "2025-05-07 17:57:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/bamboo_button": {
     "criteria": {
       "has_planks": "2025-05-07 18:11:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick_from_bamboo_item": {
-    "criteria": {
-      "has_bamboo": "2025-05-07 17:57:42 +0000"
     },
     "done": true
   },
@@ -2221,21 +2239,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bamboo_block": {
-    "criteria": {
-      "has_bamboo": "2025-05-07 17:57:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/bamboo_sign": {
     "criteria": {
       "has_planks": "2025-05-07 18:11:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/scaffolding": {
-    "criteria": {
-      "has_bamboo": "2025-05-07 17:57:42 +0000"
     },
     "done": true
   },
@@ -2248,12 +2254,6 @@
   "minecraft:recipes/decorations/bamboo_fence": {
     "criteria": {
       "has_planks": "2025-05-07 18:11:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bone_block": {
-    "criteria": {
-      "has_bone_meal": "2025-05-07 18:02:16 +0000"
     },
     "done": true
   },

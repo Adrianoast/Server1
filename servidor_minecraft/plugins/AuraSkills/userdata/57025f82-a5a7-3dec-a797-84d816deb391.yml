@@ -8,7 +8,7 @@ skills:
     xp: 1016.6545487880633
   auraskills/mining:
     level: 4
-    xp: 827.0700000000423
+    xp: 841.1500000000441
   auraskills/fishing:
     level: 0
     xp: 0.0
@@ -20,7 +20,7 @@ skills:
     xp: 961.401360000001
   auraskills/farming:
     level: 0
-    xp: 53.39999999999999
+    xp: 53.64999999999999
   auraskills/fighting:
     level: 6
     xp: 2507.000000000003
@@ -38,17 +38,17 @@ action_bar:
   idle: true
 stat_modifiers:
   '0':
-    name: mining-stamina
-    stat: auraskills/toughness
-    operation: ADD
-    value: 1.0
-  '1':
     name: AbilityModifier-EnchantedStrength
     stat: auraskills/strength
     operation: ADD
     value: 2.0
+  '1':
+    name: foraging-valor
+    stat: auraskills/strength
+    operation: ADD
+    value: 1.0
 ability_data:
   auraskills/first_strike:
     counter: 19
   auraskills/xp_convert:
-    xp: 2.303204607925246
+    xp: 16.633204607925265

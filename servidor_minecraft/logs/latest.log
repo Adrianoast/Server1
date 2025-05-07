@@ -203,3 +203,11 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [18:02:03] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Hopper(Redstone.page1.items.6) for $38.67 with the buy screen.
 [18:05:16] [Server thread/INFO]: adrianox27 issued server command: /shop
 [18:05:19] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Redstone(Ores.page1.items.23) for $3.50 with the buy screen.
+[18:13:51] [Server thread/INFO]: adrianox27 issued server command: /shop
+[18:14:20] [Server thread/INFO]: adrianox27 issued server command: /shop
+[18:14:37] [Server thread/INFO]: adrianox27 issued server command: /shop
+[18:15:06] [Server thread/INFO]: adrianox27 issued server command: /shop
+[18:15:09] [Server thread/INFO]: Shop >> adrianox27 sold 8 x Emerald(Ores.page1.items.11) for $78.80 with the quick sell screen.
+[18:16:55] [Server thread/INFO]: adrianox27 issued server command: /shop
+[18:17:05] [Server thread/INFO]: Shop >> adrianox27 sold 3 x Emerald(Ores.page1.items.11) for $29.54 with the quick sell screen.
+[18:17:20] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/4667, uuid='70a491fe-441a-4953-bc68-3f89e9b353ff', l='ServerLevel[world]', x=260.50, y=32.00, z=-371.50, cpos=[16, -24], tl=391, v=true] died: Skeletal Knight suffocated in a wall

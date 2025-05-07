@@ -174,3 +174,4 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [04:36:20] [User Authenticator #0/INFO]: UUID of player Coghi77 is 9f44e4ab-6bc0-37b2-8a24-e24ae41ca3ba
 [04:36:21] [Server thread/INFO]: Coghi77 joined the game
 [04:36:22] [Server thread/INFO]: Coghi77[/127.12.16.198:51605] logged in with entity id 41 at ([world]404.776783271607, 124.0, -681.2330991282889)
+[04:55:38] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/2958, uuid='c80facfc-715e-48b0-9ef4-cab6b32f00c4', l='ServerLevel[world]', x=426.50, y=80.00, z=-731.50, cpos=[26, -46], tl=410, v=true] died: Skeletal Knight suffocated in a wall

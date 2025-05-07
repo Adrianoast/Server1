@@ -191,3 +191,5 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [19:08:55] [Server thread/INFO]: adrianox27 issued server command: /shop
 [19:09:02] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Hopper(Redstone.page1.items.6) for $38.67 with the buy screen.
 [19:21:53] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/3696, uuid='4a30e019-281a-4e22-b49f-0e49a2835d86', l='ServerLevel[world]', x=339.50, y=74.00, z=-399.88, cpos=[21, -25], tl=402, v=true] died: Skeletal Knight suffocated in a wall
+[19:32:22] [Server thread/INFO]: adrianox27 lost connection: Disconnected
+[19:32:22] [Server thread/INFO]: adrianox27 left the game

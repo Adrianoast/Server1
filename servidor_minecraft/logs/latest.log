@@ -181,3 +181,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [18:52:08] [Server thread/INFO]: adrianox27 issued server command: /shop
 [18:52:13] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Scaffolding(Miscellaneous.page1.items.28) for $85.12 with the buy screen.
 [18:53:00] [Server thread/INFO]: Villager Villager['Fletcher'/58, uuid='0749bd8b-53fa-4009-b885-ba6c1368d6fd', l='ServerLevel[world]', x=243.30, y=76.00, z=-380.50, cpos=[15, -24], tl=336536, v=true] died, message: 'Fletcher was slain by Zombie'
+[18:59:23] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/1434, uuid='66a1b286-3289-489e-a012-39cb13f5e987', l='ServerLevel[world]', x=274.50, y=72.00, z=-470.50, cpos=[17, -30], tl=400, v=true] died: Skeletal Knight suffocated in a wall
+[19:01:25] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/1627, uuid='8fe13ed8-a130-44de-9630-869eb85fe6da', l='ServerLevel[world]', x=279.50, y=24.00, z=-394.50, cpos=[17, -25], tl=395, v=true] died: Skeletal Knight suffocated in a wall
+[19:02:56] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:03:02] [Server thread/INFO]: Shop >> adrianox27 bought 2 x Water Bucket(Miscellaneous.page1.items.41) for $36.68 with the buy screen.

@@ -171,3 +171,6 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [16:18:47] [Server thread/INFO]: Timings Reset
 [16:18:47] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
 [16:18:47] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
+[17:23:53] [User Authenticator #0/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[17:23:55] [Server thread/INFO]: adrianox27 joined the game
+[17:23:55] [Server thread/INFO]: adrianox27[/127.190.71.39:57815] logged in with entity id 28 at ([world]233.59624141449112, 114.5, -372.07340508577136)

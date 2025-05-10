@@ -217,3 +217,20 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [19:06:14] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Golden Carrot(Food.page1.items.8) for $780.80 with the buy screen.
 [19:06:27] [Server thread/INFO]: adrianox27 lost connection: Disconnected
 [19:06:27] [Server thread/INFO]: adrianox27 left the game
+[19:10:44] [User Authenticator #2/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[19:10:45] [Server thread/INFO]: adrianox27 joined the game
+[19:10:45] [Server thread/INFO]: adrianox27[/127.190.71.39:47525] logged in with entity id 3396 at ([world]246.47468365861488, 76.0, -382.69999998807907)
+[19:11:32] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:11:37] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Water Bucket(Miscellaneous.page1.items.41) for $18.34 with the buy screen.
+[19:11:44] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Soul Sand(Blocks.page1.items.10) for $10.00 with the buy screen.
+[19:11:51] [Server thread/INFO]: Shop >> adrianox27 bought 33 x Glass(Blocks.page3.items.119) for $207.90 with the buy screen.
+[19:13:02] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:13:26] [Server thread/INFO]: Shop >> adrianox27 bought 17 x Kelp(Farming.page1.items.14) for $1.70 with the buy screen.
+[19:13:51] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:13:55] [Server thread/INFO]: Shop >> adrianox27 sold 414 x Dirt(Blocks.page3.items.109) for $310.50 with the quick sell screen.
+[19:13:59] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:14:06] [Server thread/INFO]: Shop >> adrianox27 bought 3 x Ender Pearl(Mobs.page1.items.6) for $21.00 with the buy screen.
+[19:14:23] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:14:46] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/3862, uuid='836ba3b7-e4c9-49f3-a934-e241483025a2', l='ServerLevel[world]', x=211.50, y=9.00, z=-320.50, cpos=[13, -21], tl=408, v=true] died: Skeletal Knight suffocated in a wall
+[19:15:03] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:15:10] [Server thread/INFO]: Shop >> adrianox27 bought 17 x Ender Pearl(Mobs.page1.items.6) for $119.00 with the buy screen.

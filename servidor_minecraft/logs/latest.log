@@ -174,3 +174,33 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [17:23:53] [User Authenticator #0/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
 [17:23:55] [Server thread/INFO]: adrianox27 joined the game
 [17:23:55] [Server thread/INFO]: adrianox27[/127.190.71.39:57815] logged in with entity id 28 at ([world]233.59624141449112, 114.5, -372.07340508577136)
+[17:30:42] [Server thread/INFO]: adrianox27 issued server command: /home home
+[17:30:52] [Server thread/INFO]: adrianox27 issued server command: /home
+[17:30:59] [Server thread/INFO]: adrianox27 issued server command: /home spawner
+[17:31:04] [Server thread/INFO]: adrianox27 issued server command: /back
+[17:31:12] [Server thread/INFO]: adrianox27 issued server command: /shop
+[17:31:16] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.40) for $441.00 with the buy screen.
+[17:31:20] [Server thread/INFO]: adrianox27 issued server command: /shop
+[17:31:26] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Anvil(Miscellaneous.page1.items.1) for $187.25 with the buy screen.
+[17:34:25] [Server thread/INFO]: adrianox27 issued server command: /fill 284 77 -382
+[17:35:02] [Server thread/INFO]: adrianox27 issued server command: /fill 284 77 -382 323 79 -335 air
+[17:35:02] [Server thread/INFO]: [adrianox27: Successfully filled 5254 block(s)]
+[17:35:17] [Server thread/INFO]: adrianox27 issued server command: /fill 284 10 -382 323 79 -335 air
+[17:35:25] [Server thread/INFO]: adrianox27 issued server command: /fill 284 50 -382 323 79 -335 air
+[17:35:30] [Server thread/INFO]: adrianox27 issued server command: /fill 284 60 -382 323 79 -335 air
+[17:36:04] [Server thread/INFO]: adrianox27 issued server command: /fill 284 65 -382 323 79 -335 air
+[17:36:04] [Server thread/INFO]: [adrianox27: Successfully filled 19671 block(s)]
+[17:36:10] [Server thread/INFO]: adrianox27 issued server command: /fill 284 55 -382 323 79 -335 air
+[17:36:17] [Server thread/INFO]: adrianox27 issued server command: /fill 284 60 -382 323 79 -335 air
+[17:36:28] [Server thread/INFO]: adrianox27 issued server command: /fill 284 60 -382 323 65 -335 air
+[17:36:28] [Server thread/INFO]: [adrianox27: Successfully filled 8217 block(s)]
+[17:36:37] [Server thread/INFO]: adrianox27 issued server command: /fill 284 50 -382 323 60 -335 air
+[17:36:37] [Server thread/INFO]: [adrianox27: Successfully filled 18882 block(s)]
+[17:36:45] [Server thread/INFO]: adrianox27 issued server command: /fill 284 40 -382 323 50 -335 air
+[17:36:45] [Server thread/INFO]: [adrianox27: Successfully filled 19014 block(s)]
+[17:37:13] [Server thread/INFO]: adrianox27 issued server command: /fill 284 35 -382 323 40 -335 air
+[17:37:13] [Server thread/INFO]: [adrianox27: Successfully filled 8976 block(s)]
+[17:37:23] [Server thread/INFO]: adrianox27 issued server command: /fill 284 20 -382 323 35 -335 air
+[17:37:23] [Server thread/INFO]: [adrianox27: Successfully filled 26088 block(s)]
+[17:37:35] [Server thread/INFO]: adrianox27 issued server command: /fill 284 05 -382 323 20 -335 air
+[17:37:35] [Server thread/INFO]: [adrianox27: Successfully filled 28193 block(s)]

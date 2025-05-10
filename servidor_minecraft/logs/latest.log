@@ -204,3 +204,5 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [17:37:23] [Server thread/INFO]: [adrianox27: Successfully filled 26088 block(s)]
 [17:37:35] [Server thread/INFO]: adrianox27 issued server command: /fill 284 05 -382 323 20 -335 air
 [17:37:35] [Server thread/INFO]: [adrianox27: Successfully filled 28193 block(s)]
+[17:41:12] [Server thread/INFO]: adrianox27 lost connection: Disconnected
+[17:41:12] [Server thread/INFO]: adrianox27 left the game

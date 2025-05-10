@@ -206,3 +206,14 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [17:37:35] [Server thread/INFO]: [adrianox27: Successfully filled 28193 block(s)]
 [17:41:12] [Server thread/INFO]: adrianox27 lost connection: Disconnected
 [17:41:12] [Server thread/INFO]: adrianox27 left the game
+[19:03:18] [User Authenticator #1/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[19:03:19] [Server thread/INFO]: adrianox27 joined the game
+[19:03:19] [Server thread/INFO]: adrianox27[/127.190.71.39:44759] logged in with entity id 2904 at ([world]292.30882067549703, 5.0, -349.0402388550973)
+[19:03:37] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:03:58] [Server thread/INFO]: Shop >> adrianox27 bought 128 x Scaffolding(Miscellaneous.page1.items.28) for $170.24 with the buy stacks screen.
+[19:05:29] [Server thread/INFO]: adrianox27 issued server command: /fill 284 90 -382 323 79 -335 air
+[19:05:29] [Server thread/INFO]: [adrianox27: Successfully filled 6403 block(s)]
+[19:06:08] [Server thread/INFO]: adrianox27 issued server command: /shop
+[19:06:14] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Golden Carrot(Food.page1.items.8) for $780.80 with the buy screen.
+[19:06:27] [Server thread/INFO]: adrianox27 lost connection: Disconnected
+[19:06:27] [Server thread/INFO]: adrianox27 left the game

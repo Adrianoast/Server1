@@ -292,3 +292,13 @@ pages:
         buy: 15000
         sell: 2875
         ominous-strength: 3
+      '69':
+        material: OMINOUS_BOTTLE
+        buy: 15000
+        sell: 2500
+        ominous-strength: 2
+      '70':
+        material: OMINOUS_BOTTLE
+        buy: 15000
+        sell: 2500
+        ominous-strength: 1

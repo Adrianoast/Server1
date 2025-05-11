@@ -5,40 +5,34 @@ skills:
     xp: 0.0
   auraskills/defense:
     level: 1
-    xp: 31.658251523971558
+    xp: 63.15825152397156
   auraskills/alchemy:
     level: 0
     xp: 0.0
   auraskills/foraging:
     level: 5
-    xp: 167.75999999999777
+    xp: 335.8399999999976
   auraskills/fishing:
     level: 0
     xp: 0.0
   auraskills/fighting:
     level: 0
-    xp: 41.0
+    xp: 49.0
   auraskills/mining:
     level: 0
-    xp: 39.99999999999999
+    xp: 42.80000000000003
   auraskills/archery:
     level: 0
     xp: 0.0
   auraskills/agility:
     level: 2
-    xp: 347.76374
+    xp: 355.46374
   auraskills/enchanting:
     level: 0
     xp: 0.0
   auraskills/excavation:
     level: 0
-    xp: 9.2
+    xp: 20.699999999999996
 mana: 22.0
 action_bar:
   idle: true
-stat_modifiers:
-  '0':
-    name: foraging-valor
-    stat: auraskills/strength
-    operation: ADD
-    value: 1.0

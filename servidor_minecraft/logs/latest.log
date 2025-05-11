@@ -513,3 +513,76 @@ Caused by: java.net.ConnectException: Connection refused
 [03:24:49] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
 [03:25:00] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival Coghi77
 [03:25:02] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:25:16] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> sisi hacha de netherita JAKSJASSJSA
+[03:25:19] [Server thread/INFO]: adrianox27 issued server command: /fly
+[03:25:20] [Async Chat Thread - #3/INFO]: [Not Secure] <Coghi77> jajajajajaj
+[03:25:27] [Server thread/INFO]: adrianox27 issued server command: /fly
+[03:25:45] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:26:20] [Async Chat Thread - #4/INFO]: [Not Secure] <adrianox27> mae
+[03:26:38] [Async Chat Thread - #4/INFO]: [Not Secure] <Coghi77> oa
+[03:26:44] [Async Chat Thread - #4/INFO]: [Not Secure] <adrianox27> y si nos agarramos con un bicho potente
+[03:26:47] [Async Chat Thread - #4/INFO]: [Not Secure] <adrianox27> pero con hierro
+[03:26:48] [Async Chat Thread - #4/INFO]: [Not Secure] <adrianox27> JASKSAJJAS
+[03:27:00] [Async Chat Thread - #4/INFO]: [Not Secure] <Coghi77> a onde?
+[03:27:08] [Server thread/INFO]: adrianox27 issued server command: /fill 335 79 -667
+[03:27:13] [Async Chat Thread - #4/INFO]: [Not Secure] <adrianox27> dejeme cocinar
+[03:27:37] [Server thread/INFO]: adrianox27 issued server command: /fill 335 79 -667 306 7 -698 minecraft:bedrock
+[03:28:07] [Server thread/INFO]: adrianox27 issued server command: /fill 335 79 -667 306 79 -698 minecraft:bedrock
+[03:28:07] [Server thread/INFO]: [adrianox27: Successfully filled 960 block(s)]
+[03:28:32] [Server thread/INFO]: Coghi77 fell from a high place
+[03:28:38] [Server thread/INFO]: adrianox27 issued server command: /fill
+[03:28:40] [Server thread/INFO]: adrianox27 issued server command: /fill 335 79 -667
+[03:29:02] [Server thread/INFO]: adrianox27 issued server command: /fill 335 79 -667 335 85 -698
+[03:29:07] [Server thread/INFO]: adrianox27 issued server command: /fill 335 79 -667 335 85 -698 minecraft:bedrock
+[03:29:07] [Server thread/INFO]: [adrianox27: Successfully filled 192 block(s)]
+[03:29:20] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 335 85 -698 minecraft:bedrock
+[03:29:20] [Server thread/INFO]: [adrianox27: Successfully filled 174 block(s)]
+[03:29:42] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 306 85 -667 minecraft:bedrock
+[03:29:42] [Server thread/INFO]: [adrianox27: Successfully filled 186 block(s)]
+[03:30:00] [Server thread/INFO]: Coghi77 was burned to a crisp while fighting adrianox27
+[03:30:13] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 334 85 -667 minecraft:bedrock
+[03:30:13] [Server thread/INFO]: [adrianox27: Successfully filled 5208 block(s)]
+[03:30:19] [Server thread/INFO]: adrianox27 issued server command: /shop
+[03:30:23] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Firework Rocket(Miscellaneous.page1.items.999) for $303.00 with the buy screen.
+[03:30:23] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Firework Rocket(Miscellaneous.page1.items.999) for $303.00 with the buy screen.
+[03:30:24] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Firework Rocket(Miscellaneous.page1.items.999) for $303.00 with the buy screen.
+[03:30:36] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 334 85 -667 minecraft:air
+[03:30:36] [Server thread/INFO]: [adrianox27: Successfully filled 6496 block(s)]
+[03:30:45] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 334 85 -667 minecraft:bedrock
+[03:30:45] [Server thread/INFO]: [adrianox27: Successfully filled 6496 block(s)]
+[03:30:51] [Server thread/INFO]: adrianox27 issued server command: /gamemode spectator
+[03:31:08] [Server thread/INFO]: adrianox27 issued server command: /fill 306 80 -698 334 84 -667 minecraft:bedrock
+[03:31:13] [Server thread/INFO]: adrianox27 issued server command: /fill 306 80 -698 334 84 -667 minecraft:air
+[03:31:13] [Server thread/INFO]: [adrianox27: Successfully filled 4640 block(s)]
+[03:31:26] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 334 85 -667 minecraft:bedrock
+[03:31:26] [Server thread/INFO]: [adrianox27: Successfully filled 4640 block(s)]
+[03:31:32] [Server thread/INFO]: adrianox27 issued server command: /fill 306 80 -698 334 84 -667 minecraft:bedrock
+[03:31:35] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 334 85 -667 minecraft:bedrock
+[03:31:40] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 334 85 -667 minecraft:bedrock
+[03:31:46] [Server thread/INFO]: adrianox27 issued server command: /fill 306 80 -698 334 84 -667 minecraft:bedrock
+[03:31:51] [Server thread/INFO]: adrianox27 issued server command: /fill 306 80 -698 334 84 -667 minecraft:air
+[03:31:51] [Server thread/INFO]: [adrianox27: Successfully filled 4640 block(s)]
+[03:31:58] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 334 85 -667 minecraft:bedrock
+[03:31:58] [Server thread/INFO]: [adrianox27: Successfully filled 4640 block(s)]
+[03:32:02] [Server thread/INFO]: adrianox27 issued server command: /fill 306 80 -698 334 84 -667 minecraft:air
+[03:32:02] [Server thread/INFO]: [adrianox27: Successfully filled 4640 block(s)]
+[03:32:06] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 334 85 -667 minecraft:bedrock
+[03:32:06] [Server thread/INFO]: [adrianox27: Successfully filled 4640 block(s)]
+[03:32:08] [Server thread/INFO]: adrianox27 issued server command: /fill 306 80 -698 334 84 -667 minecraft:air
+[03:32:08] [Server thread/INFO]: [adrianox27: Successfully filled 4640 block(s)]
+[03:32:15] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 334 85 -667 minecraft:bedrock
+[03:32:15] [Server thread/INFO]: [adrianox27: Successfully filled 4640 block(s)]
+[03:32:18] [Server thread/INFO]: adrianox27 issued server command: /fill 306 80 -698 334 84 -667 minecraft:air
+[03:32:18] [Server thread/INFO]: [adrianox27: Successfully filled 4640 block(s)]
+[03:32:23] [Server thread/INFO]: adrianox27 issued server command: /fill 335 79 -667 335 85 -698 minecraft:bedrock
+[03:32:32] [Server thread/INFO]: adrianox27 issued server command: /fill 335 79 -667 335 85 -698 minecraft:bedrock
+[03:32:38] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 335 85 -698 minecraft:bedrock
+[03:32:38] [Server thread/INFO]: [adrianox27: Successfully filled 145 block(s)]
+[03:32:47] [Server thread/INFO]: adrianox27 issued server command: /fill 306 79 -698 306 85 -667 minecraft:bedrock
+[03:32:47] [Server thread/INFO]: [adrianox27: Successfully filled 155 block(s)]
+[03:32:57] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[03:33:10] [Server thread/INFO]: adrianox27 issued server command: /give adrianox27 light 64
+[03:33:48] [Server thread/INFO]: adrianox27 issued server command: /give adrianox27 light 64
+[03:34:19] [Server thread/INFO]: adrianox27 issued server command: /give adrianox27 light 64
+[03:34:46] [Server thread/INFO]: adrianox27 issued server command: /tp Coghi77 adrianox27
+[03:34:53] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative

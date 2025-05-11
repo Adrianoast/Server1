@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1746934564264
+  logout: 1746935536313
   login: 1746934568216
   kits:
     notch: 1746652725023
@@ -25,11 +25,11 @@ last-account-name: adrianox27
 logoutlocation:
   world: 6d5de5c8-d240-4d55-8f58-e03e6b7cb7c7
   world-name: world
-  x: 326.48981004381034
-  y: 80.0
-  z: -682.3973105707383
-  yaw: 95.25177001953125
-  pitch: 2.2498574256896973
+  x: 313.05459624314153
+  y: 56.0
+  z: -664.7769295379516
+  yaw: 79.9580078125
+  pitch: 13.499968528747559
 homes:
   home:
     world: 6d5de5c8-d240-4d55-8f58-e03e6b7cb7c7

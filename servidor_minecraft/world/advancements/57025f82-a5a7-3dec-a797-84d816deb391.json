@@ -370,6 +370,7 @@
     "criteria": {
       "apple": "2025-05-04 23:48:00 +0000",
       "bread": "2025-05-04 23:12:48 +0000",
+      "golden_apple": "2025-05-11 03:41:47 +0000",
       "cooked_beef": "2025-05-04 23:56:14 +0000",
       "golden_carrot": "2025-05-10 19:06:17 +0000"
     },
@@ -2367,9 +2368,33 @@
     },
     "done": true
   },
+  "minecraft:nether/charge_respawn_anchor": {
+    "criteria": {
+      "charge_respawn_anchor": "2025-05-11 03:42:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_lamp": {
     "criteria": {
       "has_glowstone": "2025-05-11 03:38:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-05-11 03:52:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-05-11 03:52:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2025-05-11 03:46:46 +0000"
     },
     "done": true
   },

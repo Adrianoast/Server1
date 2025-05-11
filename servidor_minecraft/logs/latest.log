@@ -622,3 +622,35 @@ Caused by: java.net.ConnectException: Connection refused
 [03:44:12] [Server thread/INFO]: adrianox27 issued server command: /tp Coghi77 adrianox27
 [03:44:30] [Async Chat Thread - #12/INFO]: [Not Secure] <adrianox27> no se puede poner debajo del cristal
 [03:44:32] [Async Chat Thread - #12/INFO]: [Not Secure] <adrianox27> me lo culeo
+[03:46:41] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/4168, uuid='7dafa0a0-0a9b-4d95-af0c-6d618863d015', l='ServerLevel[world]', x=408.50, y=37.00, z=-651.50, cpos=[25, -41], tl=402, v=true] died: Skeletal Knight suffocated in a wall
+[03:46:46] [Server thread/INFO]: adrianox27 has made the advancement [Who Needs Rockets?]
+[03:49:28] [Server thread/INFO]: adrianox27 issued server command: /give adrianox27 obsidian 64
+[03:50:12] [Server thread/INFO]: Coghi77 was blown up by adrianox27
+[03:50:20] [Server thread/INFO]: adrianox27 issued server command: /tp Coghi77 adrianox27
+[03:50:33] [Server thread/INFO]: adrianox27 issued server command: /repair
+[03:50:39] [Async Chat Thread - #14/INFO]: [Not Secure] <adrianox27> deme su armor
+[03:50:45] [Async Chat Thread - #15/INFO]: [Not Secure] <Coghi77> quiero jugar wrzone
+[03:50:52] [Server thread/INFO]: adrianox27 issued server command: /repair
+[03:51:00] [Server thread/INFO]: adrianox27 issued server command: /repair
+[03:51:01] [Server thread/INFO]: adrianox27 issued server command: /repair
+[03:51:03] [Server thread/INFO]: adrianox27 issued server command: /repair
+[03:51:11] [Server thread/INFO]: adrianox27 issued server command: /repair
+[03:51:15] [Server thread/INFO]: adrianox27 issued server command: /repair
+[03:51:16] [Async Chat Thread - #14/INFO]: [Not Secure] <adrianox27> deme su armor
+[03:51:24] [Server thread/INFO]: adrianox27 issued server command: /repair
+[03:51:34] [Async Chat Thread - #14/INFO]: [Not Secure] <Coghi77> suave
+[03:51:39] [Async Chat Thread - #14/INFO]: [Not Secure] <Coghi77> voy a ir a comer
+[03:51:42] [Async Chat Thread - #14/INFO]: [Not Secure] <Coghi77> ahorita entro
+[03:51:42] [Async Chat Thread - #14/INFO]: [Not Secure] <adrianox27> oki
+[03:51:44] [Async Chat Thread - #14/INFO]: [Not Secure] <adrianox27> yo
+[03:51:51] [Async Chat Thread - #14/INFO]: [Not Secure] <adrianox27> voy a mimir
+[03:51:55] [Async Chat Thread - #14/INFO]: [Not Secure] <Coghi77> aaa di
+[03:51:56] [Server thread/INFO]: adrianox27 issued server command: /invsee
+[03:51:56] [Async Chat Thread - #14/INFO]: [Not Secure] <Coghi77> dele
+[03:51:59] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:52:01] [Async Chat Thread - #14/INFO]: [Not Secure] <Coghi77> bno pa
+[03:52:03] [Server thread/INFO]: Coghi77 lost connection: Disconnected
+[03:52:03] [Server thread/INFO]: Coghi77 left the game
+[03:52:11] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:52:16] [Server thread/INFO]: adrianox27 lost connection: Disconnected
+[03:52:16] [Server thread/INFO]: adrianox27 left the game

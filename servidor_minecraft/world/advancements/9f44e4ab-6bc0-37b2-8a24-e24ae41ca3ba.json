@@ -260,6 +260,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "apple": "2025-05-05 02:31:14 +0000",
+      "golden_apple": "2025-05-11 03:36:09 +0000",
       "cooked_mutton": "2025-05-05 02:38:53 +0000"
     },
     "done": false
@@ -675,6 +676,12 @@
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_feather": "2025-05-11 03:25:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-05-11 03:39:23 +0000"
     },
     "done": true
   },

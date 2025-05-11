@@ -586,3 +586,39 @@ Caused by: java.net.ConnectException: Connection refused
 [03:34:19] [Server thread/INFO]: adrianox27 issued server command: /give adrianox27 light 64
 [03:34:46] [Server thread/INFO]: adrianox27 issued server command: /tp Coghi77 adrianox27
 [03:34:53] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
+[03:36:04] [Server thread/INFO]: adrianox27 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet play/serverbound/minecraft:accept_teleportation (ServerboundAcceptTeleportationPacket) was larger than I expected, found 8 bytes extra whilst reading packet serverbound/minecraft:accept_teleportation
+[03:36:04] [Server thread/INFO]: adrianox27 left the game
+[03:36:07] [User Authenticator #2/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[03:36:08] [Server thread/INFO]: adrianox27 joined the game
+[03:36:08] [Server thread/INFO]: adrianox27[/127.190.71.39:48087] logged in with entity id 2951 at ([world]326.48981004381034, 80.0, -682.3973105707383)
+[03:36:18] [Async Chat Thread - #6/INFO]: [Not Secure] <adrianox27> porque bota eso
+[03:36:21] [Async Chat Thread - #6/INFO]: [Not Secure] <adrianox27> los cristales
+[03:36:28] [Async Chat Thread - #6/INFO]: [Not Secure] <Coghi77> pq ya no me cabe
+[03:38:34] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:39:23] [Server thread/INFO]: Coghi77 has reached the goal [Postmortal]
+[03:39:37] [Server thread/INFO]: Coghi77 was blown up by Coghi77
+[03:39:41] [Async Chat Thread - #8/INFO]: [Not Secure] <adrianox27> epico
+[03:39:44] [Async Chat Thread - #8/INFO]: [Not Secure] <adrianox27> JASASKKSASAJASJASAS
+[03:39:48] [Server thread/INFO]: adrianox27 issued server command: /tp Coghi77 adrianox27
+[03:39:53] [Async Chat Thread - #8/INFO]: [Not Secure] <adrianox27> perese gay
+[03:41:14] [Async Chat Thread - #10/INFO]: [Not Secure] <adrianox27> agarre eso
+[03:41:16] [Async Chat Thread - #10/INFO]: [Not Secure] <adrianox27> playo
+[03:41:18] [Server thread/INFO]: Coghi77 has completed the challenge [Cover Me in Debris]
+[03:41:32] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[03:41:36] [Async Chat Thread - #10/INFO]: [Not Secure] <adrianox27> no se me acerque
+[03:41:40] [Async Chat Thread - #10/INFO]: [Not Secure] <adrianox27> hasta que diga
+[03:42:07] [Async Chat Thread - #10/INFO]: [Not Secure] <adrianox27> ya
+[03:42:14] [Async Chat Thread - #10/INFO]: [Not Secure] <adrianox27> demosle
+[03:42:15] [Async Chat Thread - #10/INFO]: [Not Secure] <Coghi77> playo
+[03:42:17] [Async Chat Thread - #10/INFO]: [Not Secure] <adrianox27> que
+[03:42:20] [Async Chat Thread - #10/INFO]: [Not Secure] <Coghi77> dame un arco
+[03:42:28] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
+[03:42:39] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[03:42:44] [Server thread/INFO]: adrianox27 has made the advancement [Not Quite "Nine" Lives]
+[03:43:14] [Server thread/INFO]: adrianox27 issued server command: /tp Coghi77 adrianox27
+[03:43:33] [Server thread/INFO]: Coghi77 has made the advancement [Ol' Betsy]
+[03:43:34] [Server thread/INFO]: Coghi77 has made the advancement [Take Aim]
+[03:44:03] [Server thread/INFO]: Coghi77 was blown up by adrianox27
+[03:44:12] [Server thread/INFO]: adrianox27 issued server command: /tp Coghi77 adrianox27
+[03:44:30] [Async Chat Thread - #12/INFO]: [Not Secure] <adrianox27> no se puede poner debajo del cristal
+[03:44:32] [Async Chat Thread - #12/INFO]: [Not Secure] <adrianox27> me lo culeo

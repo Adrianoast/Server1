@@ -1,0 +1,10 @@
+data_version: 2
+spawners:
+  83b3f3b8:
+    location: world,229,74,-372
+    entityType: SKELETON
+    settings: 60,true,16,true,500,315,7000,7,28,7,1746906661963,true
+    inventory:
+    - BOW;224:2,369:3,355:2,83:3,197:1,343:1,107:2
+    - BONE:82
+    - ARROW:98

@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.12.16.198
+ip-address: 127.182.161.211
 afk: false
 socialspy: false
 npc: false
@@ -17,7 +17,7 @@ timestamps:
   jail: 0
   onlinejail: 0
   logout: 1746413795055
-  login: 1746592582236
+  login: 1746933351295
 money: '0'
 last-account-name: Coghi77
 logoutlocation:
@@ -28,3 +28,11 @@ logoutlocation:
   z: -680.3000000119209
   yaw: -170.70367431640625
   pitch: 5.550002098083496
+lastlocation:
+  world: 6d5de5c8-d240-4d55-8f58-e03e6b7cb7c7
+  world-name: world
+  x: 417.6621676925683
+  y: 116.00133597911214
+  z: -693.0677703502257
+  yaw: -71.25008392333984
+  pitch: 28.649980545043945

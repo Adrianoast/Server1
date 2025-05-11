@@ -1,28 +1,28 @@
-[16:18:07] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[16:18:07] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[16:18:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:18:09] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[16:18:09] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[03:15:17] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[03:15:17] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[03:15:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:15:18] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[03:15:18] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - EconomyShopGUI (6.12.2)
-[16:18:09] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - AuraSkills (2.3.3), CMI (9.7.13.0), Chunky (1.4.36), Essentials (2.21.0), MythicMobs (5.8.2-6a2683d7), Vault (1.7.3-b131)
-[16:18:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:18:16] [ServerMain/INFO]: Loaded 1290 recipes
-[16:18:16] [ServerMain/INFO]: Loaded 1399 advancements
-[16:18:17] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[16:18:17] [Server thread/INFO]: Loading properties
-[16:18:17] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[16:18:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:18:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:18:18] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:18:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[16:18:19] [Server thread/INFO]: Default game type: SURVIVAL
-[16:18:19] [Server thread/INFO]: Generating keypair
-[16:18:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:18:19] [Server thread/INFO]: Using epoll channel type
-[16:18:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:18:19] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[16:18:19] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/CMI-9.7.13.0.jar' in 'plugins/.paper-remapped'
+[03:15:18] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - AuraSkills (2.3.3), CMI (9.7.13.0), Chunky (1.4.36), Essentials (2.21.0), MythicMobs (5.8.2-6a2683d7), SmartSpawner (1.3.2), Vault (1.7.3-b131), upgradablespawner (1.0.0-BETA)
+[03:15:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:15:23] [ServerMain/INFO]: Loaded 1290 recipes
+[03:15:24] [ServerMain/INFO]: Loaded 1399 advancements
+[03:15:24] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[03:15:24] [Server thread/INFO]: Loading properties
+[03:15:24] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[03:15:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:15:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:15:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:15:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[03:15:25] [Server thread/INFO]: Default game type: SURVIVAL
+[03:15:25] [Server thread/INFO]: Generating keypair
+[03:15:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:15:25] [Server thread/INFO]: Using epoll channel type
+[03:15:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:15:26] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:15:26] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/CMI-9.7.13.0.jar' in 'plugins/.paper-remapped'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [CMILib]. Please download and install these plugins to run 'CMI'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
@@ -32,205 +32,484 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[16:18:20] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[16:18:21] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[16:18:21] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.8.2-6a2683d7
-[16:18:21] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[16:18:21] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[16:18:21] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
-[16:18:21] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.3
-[16:18:21] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
-[16:18:21] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.12.2
-[16:18:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:18:21] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:18:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[16:18:21] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:18:21] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:18:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:18:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:18:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:18:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:18:21] [Server thread/INFO]: Preparing level "world"
-[16:18:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:18:25] [Server thread/INFO]: Time elapsed: 1742 ms
-[16:18:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:18:25] [Server thread/INFO]: Time elapsed: 270 ms
-[16:18:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:18:25] [Server thread/INFO]: Time elapsed: 229 ms
-[16:18:25] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.8.2-6a2683d7
-[16:18:26] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.1)...
-[16:18:26] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[16:18:30] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
-[16:18:30] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data
-[16:18:30] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data/worlds
-[16:18:34] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[16:18:35] [Server thread/INFO]: [MythicMobs] Loading Items...
-[16:18:35] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[16:18:35] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[16:18:36] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[16:18:36] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[16:18:36] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[16:18:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[16:18:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[16:18:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[16:18:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
-[16:18:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[16:18:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[16:18:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[16:18:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[16:18:36] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[16:18:36] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[16:18:36] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.8.2 ( build 6a2683d7 ) has been successfully loaded!
-[16:18:36] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
-[16:18:38] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[16:18:38] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[16:18:38] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[16:18:38] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[16:18:39] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[16:18:39] [Server thread/INFO]: [Essentials] Using locale en
-[16:18:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[16:18:40] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[16:18:40] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[16:18:40] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[16:18:40] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.3
-[16:18:41] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[16:18:42] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
-[16:18:42] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
-[16:18:42] [Server thread/INFO]: [AuraSkills] Loaded 158 config options in 91 ms
-[16:18:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[16:18:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[16:18:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[16:18:42] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[16:18:43] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[16:18:44] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.12.2
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.1...
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[16:18:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[16:18:45] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 903ms to complete
-[16:18:45] [Server thread/INFO]: [spark] Starting background profiler...
-[16:18:46] [Server thread/INFO]: Done preparing level "world" (24.280s)
-[16:18:46] [Server thread/INFO]: Running delayed init tasks
-[16:18:46] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[16:18:46] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[16:18:46] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
-[16:18:46] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[16:18:46] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[16:18:46] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[16:18:47] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:18:47] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
-[16:18:47] [Server thread/INFO]: Done (40.940s)! For help, type "help"
-[16:18:47] [Server thread/INFO]: Timings Reset
-[16:18:47] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
-[16:18:47] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
-[17:23:53] [User Authenticator #0/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
-[17:23:55] [Server thread/INFO]: adrianox27 joined the game
-[17:23:55] [Server thread/INFO]: adrianox27[/127.190.71.39:57815] logged in with entity id 28 at ([world]233.59624141449112, 114.5, -372.07340508577136)
-[17:30:42] [Server thread/INFO]: adrianox27 issued server command: /home home
-[17:30:52] [Server thread/INFO]: adrianox27 issued server command: /home
-[17:30:59] [Server thread/INFO]: adrianox27 issued server command: /home spawner
-[17:31:04] [Server thread/INFO]: adrianox27 issued server command: /back
-[17:31:12] [Server thread/INFO]: adrianox27 issued server command: /shop
-[17:31:16] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Enchanted Book(Enchanting.page1.items.40) for $441.00 with the buy screen.
-[17:31:20] [Server thread/INFO]: adrianox27 issued server command: /shop
-[17:31:26] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Anvil(Miscellaneous.page1.items.1) for $187.25 with the buy screen.
-[17:34:25] [Server thread/INFO]: adrianox27 issued server command: /fill 284 77 -382
-[17:35:02] [Server thread/INFO]: adrianox27 issued server command: /fill 284 77 -382 323 79 -335 air
-[17:35:02] [Server thread/INFO]: [adrianox27: Successfully filled 5254 block(s)]
-[17:35:17] [Server thread/INFO]: adrianox27 issued server command: /fill 284 10 -382 323 79 -335 air
-[17:35:25] [Server thread/INFO]: adrianox27 issued server command: /fill 284 50 -382 323 79 -335 air
-[17:35:30] [Server thread/INFO]: adrianox27 issued server command: /fill 284 60 -382 323 79 -335 air
-[17:36:04] [Server thread/INFO]: adrianox27 issued server command: /fill 284 65 -382 323 79 -335 air
-[17:36:04] [Server thread/INFO]: [adrianox27: Successfully filled 19671 block(s)]
-[17:36:10] [Server thread/INFO]: adrianox27 issued server command: /fill 284 55 -382 323 79 -335 air
-[17:36:17] [Server thread/INFO]: adrianox27 issued server command: /fill 284 60 -382 323 79 -335 air
-[17:36:28] [Server thread/INFO]: adrianox27 issued server command: /fill 284 60 -382 323 65 -335 air
-[17:36:28] [Server thread/INFO]: [adrianox27: Successfully filled 8217 block(s)]
-[17:36:37] [Server thread/INFO]: adrianox27 issued server command: /fill 284 50 -382 323 60 -335 air
-[17:36:37] [Server thread/INFO]: [adrianox27: Successfully filled 18882 block(s)]
-[17:36:45] [Server thread/INFO]: adrianox27 issued server command: /fill 284 40 -382 323 50 -335 air
-[17:36:45] [Server thread/INFO]: [adrianox27: Successfully filled 19014 block(s)]
-[17:37:13] [Server thread/INFO]: adrianox27 issued server command: /fill 284 35 -382 323 40 -335 air
-[17:37:13] [Server thread/INFO]: [adrianox27: Successfully filled 8976 block(s)]
-[17:37:23] [Server thread/INFO]: adrianox27 issued server command: /fill 284 20 -382 323 35 -335 air
-[17:37:23] [Server thread/INFO]: [adrianox27: Successfully filled 26088 block(s)]
-[17:37:35] [Server thread/INFO]: adrianox27 issued server command: /fill 284 05 -382 323 20 -335 air
-[17:37:35] [Server thread/INFO]: [adrianox27: Successfully filled 28193 block(s)]
-[17:41:12] [Server thread/INFO]: adrianox27 lost connection: Disconnected
-[17:41:12] [Server thread/INFO]: adrianox27 left the game
-[19:03:18] [User Authenticator #1/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
-[19:03:19] [Server thread/INFO]: adrianox27 joined the game
-[19:03:19] [Server thread/INFO]: adrianox27[/127.190.71.39:44759] logged in with entity id 2904 at ([world]292.30882067549703, 5.0, -349.0402388550973)
-[19:03:37] [Server thread/INFO]: adrianox27 issued server command: /shop
-[19:03:58] [Server thread/INFO]: Shop >> adrianox27 bought 128 x Scaffolding(Miscellaneous.page1.items.28) for $170.24 with the buy stacks screen.
-[19:05:29] [Server thread/INFO]: adrianox27 issued server command: /fill 284 90 -382 323 79 -335 air
-[19:05:29] [Server thread/INFO]: [adrianox27: Successfully filled 6403 block(s)]
-[19:06:08] [Server thread/INFO]: adrianox27 issued server command: /shop
-[19:06:14] [Server thread/INFO]: Shop >> adrianox27 bought 64 x Golden Carrot(Food.page1.items.8) for $780.80 with the buy screen.
-[19:06:27] [Server thread/INFO]: adrianox27 lost connection: Disconnected
-[19:06:27] [Server thread/INFO]: adrianox27 left the game
-[19:10:44] [User Authenticator #2/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
-[19:10:45] [Server thread/INFO]: adrianox27 joined the game
-[19:10:45] [Server thread/INFO]: adrianox27[/127.190.71.39:47525] logged in with entity id 3396 at ([world]246.47468365861488, 76.0, -382.69999998807907)
-[19:11:32] [Server thread/INFO]: adrianox27 issued server command: /shop
-[19:11:37] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Water Bucket(Miscellaneous.page1.items.41) for $18.34 with the buy screen.
-[19:11:44] [Server thread/INFO]: Shop >> adrianox27 bought 1 x Soul Sand(Blocks.page1.items.10) for $10.00 with the buy screen.
-[19:11:51] [Server thread/INFO]: Shop >> adrianox27 bought 33 x Glass(Blocks.page3.items.119) for $207.90 with the buy screen.
-[19:13:02] [Server thread/INFO]: adrianox27 issued server command: /shop
-[19:13:26] [Server thread/INFO]: Shop >> adrianox27 bought 17 x Kelp(Farming.page1.items.14) for $1.70 with the buy screen.
-[19:13:51] [Server thread/INFO]: adrianox27 issued server command: /shop
-[19:13:55] [Server thread/INFO]: Shop >> adrianox27 sold 414 x Dirt(Blocks.page3.items.109) for $310.50 with the quick sell screen.
-[19:13:59] [Server thread/INFO]: adrianox27 issued server command: /shop
-[19:14:06] [Server thread/INFO]: Shop >> adrianox27 bought 3 x Ender Pearl(Mobs.page1.items.6) for $21.00 with the buy screen.
-[19:14:23] [Server thread/INFO]: adrianox27 issued server command: /shop
-[19:14:46] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/3862, uuid='836ba3b7-e4c9-49f3-a934-e241483025a2', l='ServerLevel[world]', x=211.50, y=9.00, z=-320.50, cpos=[13, -21], tl=408, v=true] died: Skeletal Knight suffocated in a wall
-[19:15:03] [Server thread/INFO]: adrianox27 issued server command: /shop
-[19:15:10] [Server thread/INFO]: Shop >> adrianox27 bought 17 x Ender Pearl(Mobs.page1.items.6) for $119.00 with the buy screen.
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[03:15:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server1/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[03:15:26] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[03:15:26] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[03:15:26] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.8.2-6a2683d7
+[03:15:26] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[03:15:26] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[03:15:26] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.12.2
+[03:15:26] [Server thread/INFO]: [upgradablespawner] Loading server plugin upgradablespawner v1.0.0-BETA
+[03:15:26] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.3
+[03:15:26] [Server thread/INFO]: [SmartSpawner] Loading server plugin SmartSpawner v1.3.2
+[03:15:26] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[03:15:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:15:26] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[03:15:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[03:15:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[03:15:27] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[03:15:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:15:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:15:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:15:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:15:27] [Server thread/INFO]: Preparing level "world"
+[03:15:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:15:29] [Server thread/INFO]: Time elapsed: 2104 ms
+[03:15:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:15:30] [Server thread/INFO]: Time elapsed: 242 ms
+[03:15:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:15:30] [Server thread/INFO]: Time elapsed: 143 ms
+[03:15:30] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[03:15:31] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[03:15:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[03:15:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[03:15:32] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[03:15:32] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[03:15:32] [Server thread/INFO]: [Essentials] Using locale en
+[03:15:33] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:15:33] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:15:33] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[03:15:33] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[03:15:33] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.8.2-6a2683d7
+[03:15:33] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.1)...
+[03:15:33] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[03:15:35] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
+[03:15:36] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data
+[03:15:36] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/Server1/servidor_minecraft/plugins/MythicMobs/data/worlds
+[03:15:39] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[03:15:39] [Server thread/INFO]: [MythicMobs] Loading Items...
+[03:15:39] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[03:15:39] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[03:15:40] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[03:15:40] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[03:15:40] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[03:15:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[03:15:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[03:15:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[03:15:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[03:15:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[03:15:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[03:15:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[03:15:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[03:15:40] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[03:15:40] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[03:15:40] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.8.2 ( build 6a2683d7 ) has been successfully loaded!
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.12.2
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.1...
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[03:15:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[03:15:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[03:15:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[03:15:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 688ms to complete
+[03:15:41] [Server thread/INFO]: [upgradablespawner] Enabling upgradablespawner v1.0.0-BETA
+[03:15:41] [Server thread/INFO]: [cz.tallonscze.core.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[03:15:42] [Server thread/ERROR]: [cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:861) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:234) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscz.upgradablespawner.Utilities.Database.getConnection(Database.java:47) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscz.upgradablespawner.Utilities.Database.createSpawnersTable(Database.java:78) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscz.upgradablespawner.Upgradablespawner.onEnable(Upgradablespawner.java:56) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:139) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:980) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:851) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	... 25 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:139) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:980) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:851) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	... 25 more
+[03:15:42] [Server thread/WARN]: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+[03:15:42] [Server thread/WARN]: 
+[03:15:42] [Server thread/WARN]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:861)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:234)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+[03:15:42] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[03:15:42] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+[03:15:42] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+[03:15:42] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+[03:15:42] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+[03:15:42] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+[03:15:42] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+[03:15:42] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscz.upgradablespawner.Utilities.Database.getConnection(Database.java:47)
+[03:15:42] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscz.upgradablespawner.Utilities.Database.createSpawnersTable(Database.java:78)
+[03:15:42] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscz.upgradablespawner.Upgradablespawner.onEnable(Upgradablespawner.java:56)
+[03:15:42] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[03:15:42] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[03:15:42] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[03:15:42] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[03:15:42] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640)
+[03:15:42] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589)
+[03:15:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754)
+[03:15:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516)
+[03:15:42] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329)
+[03:15:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215)
+[03:15:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+[03:15:42] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[03:15:42] [Server thread/WARN]: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+[03:15:42] [Server thread/WARN]: 
+[03:15:42] [Server thread/WARN]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[03:15:42] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[03:15:42] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+[03:15:42] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:139)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:980)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:851)
+[03:15:42] [Server thread/WARN]: 	... 25 more
+[03:15:42] [Server thread/WARN]: Caused by: java.net.ConnectException: Connection refused
+[03:15:42] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+[03:15:42] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+[03:15:42] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+[03:15:42] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+[03:15:42] [Server thread/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[03:15:42] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:751)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+[03:15:42] [Server thread/WARN]: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+[03:15:42] [Server thread/WARN]: 	... 28 more
+[03:15:42] [Server thread/INFO]: [cz.tallonscze.core.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[03:15:43] [Server thread/ERROR]: [cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:861) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:234) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscze.core.com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscz.upgradablespawner.Utilities.Database.getConnection(Database.java:47) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscz.upgradablespawner.GUI.SpawnerInventory.loadAllInventories(SpawnerInventory.java:119) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at upgradablespawner-1.0.0-BETA-all.jar/cz.tallonscz.upgradablespawner.Upgradablespawner.onEnable(Upgradablespawner.java:67) ~[upgradablespawner-1.0.0-BETA-all.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:139) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:980) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:851) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	... 25 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:139) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:980) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:851) ~[mysql-connector-j-8.4.0.jar:8.4.0]
+	... 25 more
+[03:15:43] [Server thread/WARN]: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+[03:15:43] [Server thread/WARN]: 
+[03:15:43] [Server thread/WARN]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:861)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:234)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+[03:15:43] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[03:15:43] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+[03:15:43] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+[03:15:43] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+[03:15:43] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+[03:15:43] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+[03:15:43] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscze.core.com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+[03:15:43] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscz.upgradablespawner.Utilities.Database.getConnection(Database.java:47)
+[03:15:43] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscz.upgradablespawner.GUI.SpawnerInventory.loadAllInventories(SpawnerInventory.java:119)
+[03:15:43] [Server thread/WARN]: 	at upgradablespawner-1.0.0-BETA-all.jar//cz.tallonscz.upgradablespawner.Upgradablespawner.onEnable(Upgradablespawner.java:67)
+[03:15:43] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[03:15:43] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[03:15:43] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[03:15:43] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[03:15:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640)
+[03:15:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589)
+[03:15:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754)
+[03:15:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516)
+[03:15:43] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329)
+[03:15:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215)
+[03:15:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+[03:15:43] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[03:15:43] [Server thread/WARN]: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+[03:15:43] [Server thread/WARN]: 
+[03:15:43] [Server thread/WARN]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[03:15:43] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[03:15:43] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+[03:15:43] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:139)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:980)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:851)
+[03:15:43] [Server thread/WARN]: 	... 25 more
+[03:15:43] [Server thread/WARN]: Caused by: java.net.ConnectException: Connection refused
+[03:15:43] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+[03:15:43] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+[03:15:43] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+[03:15:43] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+[03:15:43] [Server thread/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[03:15:43] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:751)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+[03:15:43] [Server thread/WARN]: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+[03:15:43] [Server thread/WARN]: 	... 28 more
+[03:15:43] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.3
+[03:15:44] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[03:15:45] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[03:15:45] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
+[03:15:45] [Server thread/INFO]: [AuraSkills] Loaded 158 config options in 84 ms
+[03:15:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[03:15:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[03:15:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[03:15:45] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[03:15:46] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[03:15:46] [Server thread/INFO]: [SmartSpawner] Enabling SmartSpawner v1.3.2
+[03:15:46] [Server thread/INFO]: [SmartSpawner] Auto-detecting available shop plugins...
+[03:15:46] [Server thread/INFO]: [SmartSpawner] EconomyShopGUI integration enabled successfully!
+[03:15:46] [Server thread/INFO]: [SmartSpawner] Running on standard Paper server.
+[03:15:46] [Server thread/INFO]: [SmartSpawner] Loaded 1 spawners. Errors: 0
+[03:15:46] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been enabled! (Loaded in 308ms)
+[03:15:46] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
+[03:15:47] [Server thread/INFO]: [spark] Starting background profiler...
+[03:15:47] [Server thread/INFO]: Done preparing level "world" (20.196s)
+[03:15:47] [Server thread/INFO]: Running delayed init tasks
+[03:15:47] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[03:15:47] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[03:15:48] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
+[03:15:48] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[03:15:48] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[03:15:48] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[03:15:48] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:15:48] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[03:15:48] [Server thread/INFO]: Done (31.902s)! For help, type "help"
+[03:15:48] [Server thread/INFO]: Timings Reset
+[03:15:48] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[03:15:48] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[03:15:49] [User Authenticator #0/INFO]: UUID of player Coghi77 is 9f44e4ab-6bc0-37b2-8a24-e24ae41ca3ba
+[03:15:50] [Server thread/INFO]: Coghi77 joined the game
+[03:15:51] [Server thread/INFO]: Coghi77[/127.182.161.211:39753] logged in with entity id 43 at ([world]399.61310753772904, 128.0, -649.5333616413915)
+[03:16:06] [User Authenticator #0/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[03:16:07] [Server thread/INFO]: adrianox27 joined the game
+[03:16:07] [Server thread/INFO]: adrianox27[/127.190.71.39:53159] logged in with entity id 338 at ([world]289.8979993494626, 84.0, -383.96422820539516)
+[03:16:23] [Async Chat Thread - #0/INFO]: [Not Secure] <adrianox27> pene
+[03:16:27] [Async Chat Thread - #0/INFO]: [Not Secure] <Coghi77> sexo
+[03:17:02] [Server thread/INFO]: adrianox27 issued server command: /op Coghi77
+[03:17:27] [Async Chat Thread - #0/INFO]: [Not Secure] <adrianox27> come pito
+[03:17:49] [Server thread/INFO]: adrianox27 issued server command: /gamemode spectator
+[03:17:53] [Server thread/INFO]: adrianox27 issued server command: /tp Coghi77
+[03:18:18] [Server thread/INFO]: adrianox27 issued server command: /lightning
+[03:18:23] [Server thread/INFO]: adrianox27 issued server command: /lightning
+[03:18:25] [Server thread/INFO]: adrianox27 issued server command: /lightning
+[03:18:26] [Server thread/INFO]: Coghi77 was struck by lightning
+[03:18:29] [Server thread/INFO]: adrianox27 issued server command: /back
+[03:18:36] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[03:18:38] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> JASKASJSAJAJ
+[03:18:40] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> como asi pa
+[03:18:41] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> playo
+[03:18:44] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> eo
+[03:18:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> un hp esqueleto tirando flecha
+[03:18:58] [Server thread/INFO]: adrianox27 issued server command: /back
+[03:19:02] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> con rayps
+[03:19:18] [Server thread/INFO]: adrianox27 issued server command: /lightning
+[03:19:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> el loot se pierde?
+[03:19:29] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> no no
+[03:19:38] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> se le perdio?
+[03:19:41] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> si
+[03:19:42] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> que tenia?
+[03:19:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> pa
+[03:19:53] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> full netherita
+[03:19:58] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> sisi
+[03:20:00] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> 60 diamantes
+[03:20:00] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> KASLASKSASAKKSA
+[03:20:11] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> y un culazo tambien
+[03:20:16] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> SI
+[03:20:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> eso si
+[03:20:23] [Server thread/INFO]: adrianox27 issued server command: /lightning
+[03:20:46] [Server thread/INFO]: Coghi77 was slain by adrianox27
+[03:20:52] [Server thread/INFO]: adrianox27 issued server command: /tp Coghi77 adrianox27
+[03:21:00] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> mae
+[03:21:04] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> no alch
+[03:21:06] [Server thread/INFO]: Named entity WitherSkeleton['Skeletal Knight'/1307, uuid='3fae9b29-4f30-48a2-ae60-831b49356f55', l='ServerLevel[world]', x=430.88, y=92.00, z=-655.50, cpos=[26, -41], tl=495, v=true] died: Skeletal Knight suffocated in a wall
+[03:21:07] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> bueno
+[03:21:12] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> tiene 20 segundos
+[03:21:20] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative Coghi77
+[03:21:22] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 1
+[03:21:23] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 2
+[03:21:24] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 3
+[03:21:26] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 4
+[03:21:27] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 5
+[03:21:29] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 6
+[03:21:31] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 7
+[03:21:42] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 10
+[03:21:44] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 11
+[03:21:46] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 12
+[03:21:49] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 14
+[03:21:51] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 15
+[03:21:52] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 16
+[03:21:55] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 17
+[03:21:57] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 18
+[03:21:59] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 19
+[03:22:05] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival Coghi77
+[03:22:26] [Server thread/INFO]: adrianox27 issued server command: /tp Coghi77
+[03:22:35] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> porque no agarro nada?
+[03:22:44] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:22:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> de que?
+[03:22:55] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> vea el inv
+[03:22:59] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:23:08] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:23:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> no tengo nada
+[03:23:19] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:23:23] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> por eso mamon
+[03:23:27] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> 10 segundos
+[03:23:29] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> di si pero de que
+[03:23:31] [Async Chat Thread - #2/INFO]: [Not Secure] <Coghi77> ?
+[03:23:33] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative
+[03:23:36] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> agarre
+[03:23:39] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> lo que perdio
+[03:23:45] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:23:57] [Server thread/INFO]: adrianox27 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: Failed to decode packet 'serverbound/minecraft:set_creative_mode_slot'
+[03:23:57] [Server thread/INFO]: adrianox27 left the game
+[03:23:59] [User Authenticator #1/INFO]: UUID of player adrianox27 is 57025f82-a5a7-3dec-a797-84d816deb391
+[03:24:01] [Server thread/INFO]: adrianox27 joined the game
+[03:24:01] [Server thread/INFO]: adrianox27[/127.190.71.39:59277] logged in with entity id 1675 at ([world]316.30000001192093, 49.0, -647.3000000119209)
+[03:24:09] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:24:15] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> esta en creativo mamon
+[03:24:17] [Async Chat Thread - #2/INFO]: [Not Secure] <adrianox27> jajajaa
+[03:24:21] [Async Chat Thread - #3/INFO]: [Not Secure] <Coghi77> no
+[03:24:28] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival
+[03:24:33] [Async Chat Thread - #3/INFO]: [Not Secure] <Coghi77> ni volar me deja
+[03:24:33] [Server thread/INFO]: adrianox27 issued server command: /gamemode creative Coghi77
+[03:24:40] [Async Chat Thread - #3/INFO]: [Not Secure] <adrianox27> saque
+[03:24:45] [Async Chat Thread - #3/INFO]: [Not Secure] <adrianox27> lo que perdio
+[03:24:49] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
+[03:25:00] [Server thread/INFO]: adrianox27 issued server command: /gamemode survival Coghi77
+[03:25:02] [Server thread/INFO]: adrianox27 issued server command: /invsee Coghi77
